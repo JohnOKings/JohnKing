@@ -1,0 +1,14 @@
+{
+    "intents": [
+        {
+            "tag": "unrecognized",
+            "patterns": [
+                "whta dish do you have",
+                "what food do you have"
+            ],
+            "responses": [
+                ""
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2359 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good morning!",
+                "Hey! Good morning",
+                "Hey there",
+                "Hey bot",
+                "Very good morning",
+                "A very good morning to you",
+                "Greeting",
+                "Greetings to you"
+            ],
+            "responses": [
+                "Hello, welcome to Restrobot! How can I assist you today?",
+                "Hi! I'm Restrobot. How may I help you at our restaurant today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "See you later",
+                "Bye",
+                "Farewell",
+                "Catch you later",
+                "Talk to you soon",
+                "Take care",
+                "Bye for now"
+            ],
+            "responses": [
+                "Goodbye! Have a wonderful day, and we hope to see you again soon!",
+                "See you later! Don't hesitate to come back if you need help."
+            ]
+        },
+        {
+            "tag": "restaurant_menu",
+            "patterns": [
+                "What's on the menu?",
+                "Can I see the menu?",
+                "What do you serve?",
+                "What's for lunch/dinner?",
+                "Tell me about the menu"
+            ],
+            "responses": [
+                "We have a variety of dishes! Our menu includes appetizers, entrees, desserts, and drinks. Would you like to know more about a specific category?",
+                "We offer a mix of local and international cuisines. What type of food are you in the mood for?"
+            ]
+        },
+        {
+            "tag": "restaurant_hours",
+            "patterns": [
+                "What are your opening hours?",
+                "When do you open?",
+                "When do you close?",
+                "What time do you open and close?"
+            ],
+            "responses": [
+                "Our restaurant is open every day from 10 AM to 11 PM. Hope to see you soon!",
+                "We are open from 10 AM to 11 PM, seven days a week."
+            ]
+        },
+        {
+            "tag": "specials",
+            "patterns": [
+                "Do you have any specials?",
+                "What are the special offers today?",
+                "Are there any discounts or promotions?",
+                "Tell me about the daily specials"
+            ],
+            "responses": [
+                "Today\u00e2\u20ac\u2122s special is our delicious grilled salmon with a side of roasted vegetables! It's 20% off for today only!",
+                "We are running a 2-for-1 pizza special today! Would you like to know more?"
+            ]
+        },
+        {
+            "tag": "reservations",
+            "patterns": [
+                "Can I make a reservation?",
+                "I want to reserve a table",
+                "Do I need to book a table?",
+                "How can I book a table?"
+            ],
+            "responses": [
+                "Yes! You can reserve a table online or by chatting us directly [Click here](https://wa.me/1234567890). Would you like me to assist you with booking?",
+                "I can help you with that! Please let me know the date, time, and number of people for your reservation."
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "How long until my food arrives?",
+                "What\u00e2\u20ac\u2122s the status of my order?",
+                "Is my order ready?"
+            ],
+            "responses": [
+                "I don\u00e2\u20ac\u2122t have access to the order details, but you can check the status at the counter or call our staff for an update.",
+                "Unfortunately, I can\u00e2\u20ac\u2122t track your order right now, but feel free to ask one of our team members!"
+            ]
+        },
+        {
+            "tag": "cuisine_type",
+            "patterns": [
+                "What type of food do you serve?",
+                "What cuisines do you offer?",
+                "What kind of food do you specialize in?",
+                "Do you serve vegetarian/vegan food?"
+            ],
+            "responses": [
+                "We offer a variety of cuisines, including Italian, Mexican, and local dishes. We also have plenty of vegetarian and vegan options!",
+                "Our menu features a mix of traditional and modern dishes. We cater to various dietary preferences, including vegetarian and vegan choices."
+            ]
+        },
+        {
+            "tag": "restaurant_location",
+            "patterns": [
+                "Where are you located?",
+                "Where is your restaurant?",
+                "What's your address?",
+                "How do I get to your restaurant?"
+            ],
+            "responses": [
+                "We are located at 123 Food Street, Downtown City. Would you like directions?",
+                "You can find us at 123 Food Street, Downtown City. Let me know if you need directions!"
+            ]
+        },
+        {
+            "tag": "contact_info",
+            "patterns": [
+                "How can I contact you?",
+                "What's your phone number?",
+                "Do you have an email?",
+                "How can I reach the restaurant?"
+            ],
+            "responses": [
+                "You can reach us at [Click here](https://wa.me/1234567890) or email us at info@restaurant.com.",
+                "Feel free to call us at [Click here](https://wa.me/1234567890) for any inquiries!"
+            ]
+        },
+        {
+            "tag": "feedback",
+            "patterns": [
+                "I want to leave feedback",
+                "How do I give feedback?",
+                "I want to review my experience",
+                "How can I share my opinion?"
+            ],
+            "responses": [
+                "We\u00e2\u20ac\u2122d love to hear your feedback! You can share it with us directly through our website or leave a review on Google.",
+                "We value your opinion! Please feel free to share your experience with us online."
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Thanks a lot",
+                "I appreciate it"
+            ],
+            "responses": [
+                "You're very welcome! We hope you enjoy your meal.",
+                "Anytime! If you need help, just let me know!"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "Say something funny",
+                "I need a laugh"
+            ],
+            "responses": [
+                "Why don\u00e2\u20ac\u2122t eggs tell jokes? They\u00e2\u20ac\u2122d crack each other up!",
+                "Why did the tomato turn red? Because it saw the salad dressing!"
+            ]
+        },
+        {
+            "tag": "book_table",
+            "patterns": [
+                "Book a table",
+                "Can I book a table?",
+                "I want to book a table",
+                "Book seat",
+                "I want to book a seat",
+                "Can I book a seat?",
+                "Could you help me book a table",
+                "Can I reserve a seat?",
+                "I need a reservation",
+                "Can you help me with a reservation",
+                "Can I book a reservation",
+                "Can i have a table?",
+                "Help me reserve a table",
+                "book table"
+            ],
+            "responses": [
+                "You can reserve a table by calling us or Whatsapp us [Click here](https://wa.me/1234567890)"
+            ]
+        },
+        {
+            "tag": "chatbot",
+            "patterns": [
+                "What are you?",
+                "are you a bot",
+                "describe your self"
+            ],
+            "responses": [
+                "I'm Restrobot, a vitual chatbot , am here to assist you"
+            ]
+        },
+        {
+            "tag": "available_tables",
+            "patterns": [
+                "How many seats are available?",
+                "Available seats",
+                "How many tables are available?",
+                "Available tables",
+                "Are there any tables available?",
+                "What is the capacity of the restaurant",
+                "Are there any available tables?",
+                "Are there any seats left?",
+                "I wanted to know if there are any tables available now",
+                "May I know if you have any tables which I can book?"
+            ],
+            "responses": [
+                "We do have a capacity of 700 seats and other equipment to make you comfortable"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "I will leave now",
+                "See you later",
+                "Goodbye",
+                "Leaving now, Bye",
+                "Good bye dear",
+                "Bye dear",
+                "I am Leaving",
+                "Have a Good day",
+                "cya later",
+                "I gotta go now",
+                "I gotta rush now",
+                "Thank you, bye",
+                "Bye",
+                "Ok Bye",
+                "Okay goodnight",
+                "Have a good day ahead",
+                "Have a great day",
+                "Tata",
+                "Take care"
+            ],
+            "responses": [
+                "It's been my pleasure serving you!",
+                "Hope to see you again soon! Goodbye!",
+                "Bye! Hope to see you again!"
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "what is your name",
+                "Who created you?",
+                "What\u00e2\u20ac\u2122s on your maker",
+                "who made you",
+                "what should I call you",
+                "whats your name?",
+                "who are you",
+                "Are you human?",
+                "Am i talking to a bot",
+                "Are you a bot",
+                "Can i have your name please",
+                "name"
+            ],
+            "responses": [
+                "You can call me Restrobot.",
+                "I'm Restrobot, a vitual chatbot ,created by OJTECH, contact him at 09077332016",
+                "I'm Restrobot!",
+                "I'm Restrobot."
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation",
+                "hours",
+                "what is the timing",
+                "when are you open",
+                "Are you open on all days?",
+                "are you open now",
+                "are you open on holidays",
+                "are you guys open on all weekdays?",
+                "working hours",
+                "hours",
+                "what are your working hours?"
+            ],
+            "responses": [
+                "We are open 10am-12am Monday-Friday!"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact information",
+                "how do we contact you",
+                "how can i contact you",
+                "can i get the contact details",
+                "I wanna give some feedback",
+                "how can i give some feedback?",
+                "CAn you give me the contact of an executive?",
+                "What is the help desk phone number?",
+                "Can you give me your number",
+                "Can i get the customer care number?",
+                "CAn I get help desk number"
+            ],
+            "responses": [
+                "You can contact us at contact@aindrisrestro.com,Chat us on whatsapp [Click here](https://wa.me/08167085247), our help desk number is 8787878787"
+            ]
+        },
+        {
+            "tag": "address",
+            "patterns": [
+                "what is the location?",
+                "whats the location",
+                "where are you located?",
+                "where is the restaurant located?",
+                "address",
+                "whats the address?",
+                "what is the address of the restaurant",
+                "I am not able to locate you",
+                "I cant find your location",
+                "CAn i have the address of the restaurant",
+                "how to reach there?",
+                "Address?",
+                "what is the address of this restaurant?"
+            ],
+            "responses": [
+                "You can locate us at Aindri's Restro, Phase 1, Rd Number 6, Whitefield, Bengaluru, Karnataka 560066"
+            ]
+        },
+        {
+            "tag": "positive_feedback",
+            "patterns": [
+                "the noodles were amazing",
+                "i loved the food",
+                "you did a good job",
+                "Love the food",
+                "Really love it",
+                "Love the staff behavior",
+                "my son devoured the brownie!",
+                "pizza was so cheesy!",
+                "perfectly baked",
+                "we are very satisfied with the service",
+                "the soup was a real game changer",
+                "such delicious flavours",
+                "so glad we discovered this place",
+                "Me and my family is very satisfied with this service and food",
+                "this place is awesome"
+            ],
+            "responses": [
+                "Thank you, we are here to serve you better"
+            ]
+        },
+        {
+            "tag": "negative_feedback",
+            "patterns": [
+                "what the fuck is wrong with these noodles?",
+                "The choco lava was so undercooked",
+                "Ew such a waste of money man",
+                "Prices are too high honestly",
+                "I hate the menu, such less options",
+                "too salty",
+                "we were served cold food",
+                "so disappointed",
+                "the food is pathetic",
+                "hate it",
+                "my wife hates the food",
+                "eww",
+                "hate the staff behavior",
+                "i hate it",
+                "hate the service",
+                "please train the staff properly",
+                "This was such a waste of money",
+                "Hate the staff",
+                "Extremely dissatisfied",
+                "disappointed",
+                "so bad",
+                "very bad",
+                "disgusting food"
+            ],
+            "responses": [
+                "Sorry to hear that,please give us more detail "
+            ]
+        },
+        {
+            "tag": "sanitation",
+            "patterns": [
+                "is it really safe to eat here?",
+                "Could you tell your COVID safety protocols?",
+                "I would like to know about the cleanliness of the restaurant",
+                "Please share your sanitization process",
+                "I am concerned about the COVID related sanitization",
+                "Is it safe to eat out in this pandemic?",
+                "are you clean",
+                "i am concerned about the cleanliness"
+            ],
+            "responses": [
+                "I understand your concern. Here are the WHO recommended COVID protocols we follow to ensure your safety: \n 1. All our staff are double masked 24x7. \n 2. All our staff is checked for fevers and other symptoms daily. \n 3. All surfaces are frequently sanitized. \n 4. We use this friendly bot to reduce physical closeness to the least!"
+            ]
+        },
+        {
+            "tag": "vegan_enquiry",
+            "patterns": [
+                "Can I see the vegan option?",
+                "Do you have any vegan options??",
+                "What is vegan in your menu?",
+                "I am vegan.",
+                "Do you also have vegan food?",
+                "vegan",
+                "is this restaurant vegan",
+                "is this place vegan"
+            ],
+            "responses": [
+                "the list is much, just say what your fucking want"
+            ]
+        },
+        {
+            "tag": "veg_enquiry",
+            "patterns": [
+                "Can I see the vegetarian options?",
+                "Do you have any vegetarian options?",
+                "Please show me your best vegetarian foods",
+                "I dont want to eat non veg",
+                "I am vegetarian",
+                "vegetarian",
+                "is this place vegetarian?"
+            ],
+            "responses": [
+                "Yes, we have a variety of vegan options available."
+            ]
+        },
+        {
+            "tag": "recipe_enquiry",
+            "patterns": [
+                "Could you tell me more about recipe of this dish?",
+                "What is the recipe of this dish?",
+                "what are the ingredients of this dish?",
+                "tell me the recipe"
+            ],
+            "responses": [
+                "our dishes are male specially by our chefs, with years of experence"
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "what do you recommend?",
+                "do you have any suggestions",
+                "please suggest something",
+                "why don't you recommend me a dish",
+                "help me choose what to order",
+                "Surprise me!",
+                "Do you have any special recommendations for me?",
+                "What do you suggest?",
+                "what is your suggestion",
+                "what is a must try",
+                "what should i try",
+                "what should i eat?",
+                "tell me what to order",
+                "tell me what i should buy",
+                "recommend me a dish",
+                "suggest me a dish"
+            ],
+            "responses": [
+                "you can try our signature dishes made by our chefs"
+            ]
+        },
+        {
+            "tag": "general",
+            "patterns": [
+                "okay",
+                "sure",
+                "cool",
+                "hmm",
+                "fine",
+                "thanks",
+                "uhuh"
+            ],
+            "responses": [
+                ":)",
+                "Glad to serve you!",
+                "Happy to help!",
+                "Always happy to assist you!"
+            ]
+        },
+        {
+            "tag": "student_discounts",
+            "patterns": [
+                "Do you offer discounts for students?",
+                "Is there a student discount?",
+                "Do you have a student special?",
+                "Are students eligible for discounts?"
+            ],
+            "responses": [
+                "Absolutely! We offer a 10% discount to students with a valid student ID. Just show us your ID when you order!"
+            ]
+        },
+        {
+            "tag": "celebration_specials",
+            "patterns": [
+                "Do you have specials for celebrations?",
+                "Can I get a discount for a celebration?",
+                "Do you offer special deals for birthdays?",
+                "What\u00e2\u20ac\u2122s your celebration discount?"
+            ],
+            "responses": [
+                "Yes, we do! We offer special packages for birthdays and anniversaries. Just get in touch with us to find out more!"
+            ]
+        },
+        {
+            "tag": "delivery_time",
+            "patterns": [
+                "How long does delivery take?",
+                "When will my food be delivered?",
+                "What\u00e2\u20ac\u2122s the estimated delivery time?",
+                "How soon can I get my order?"
+            ],
+            "responses": [
+                "Typically, delivery takes about 30-45 minutes depending on your location and traffic. We\u00e2\u20ac\u2122ll get it to you as quickly as possible!"
+            ]
+        },
+        {
+            "tag": "special_requests",
+            "patterns": [
+                "Can I make a special request?",
+                "Can I customize my order?",
+                "Can you prepare food differently?",
+                "Can I ask for special modifications to my meal?"
+            ],
+            "responses": [
+                "Of course! We're happy to accommodate special requests. Just let us know any dietary restrictions or preferences when you order."
+            ]
+        },
+        {
+            "tag": "chef_special",
+            "patterns": [
+                "What\u00e2\u20ac\u2122s the chef\u00e2\u20ac\u2122s special today?",
+                "Do you have a special dish today?",
+                "What\u00e2\u20ac\u2122s the featured dish?",
+                "Is there a special dish?"
+            ],
+            "responses": [
+                "Today\u00e2\u20ac\u2122s chef\u00e2\u20ac\u2122s special is a delicious grilled salmon with garlic butter sauce. Come try it out!"
+            ]
+        },
+        {
+            "tag": "reservations_policy",
+            "patterns": [
+                "Do I need to book in advance?",
+                "What\u00e2\u20ac\u2122s your reservation policy?",
+                "How early should I make a reservation?",
+                "When should I book a table?"
+            ],
+            "responses": [
+                "We recommend booking at least 24 hours in advance, especially during peak times. It helps us ensure you have the best experience!"
+            ]
+        },
+        {
+            "tag": "student_discounts",
+            "patterns": [
+                "Do you offer discounts for students?",
+                "Is there a student discount?",
+                "Do you have a student special?",
+                "Are students eligible for discounts?"
+            ],
+            "responses": [
+                "Absolutely! We offer a 10% discount to students with a valid student ID. Just show us your ID when you order!"
+            ]
+        },
+        {
+            "tag": "celebration_specials",
+            "patterns": [
+                "Do you have specials for celebrations?",
+                "Can I get a discount for a celebration?",
+                "Do you offer special deals for birthdays?",
+                "What\u00e2\u20ac\u2122s your celebration discount?"
+            ],
+            "responses": [
+                "Yes, we do! We offer special packages for birthdays and anniversaries. Just get in touch with us to find out more!"
+            ]
+        },
+        {
+            "tag": "delivery_time",
+            "patterns": [
+                "How long does delivery take?",
+                "When will my food be delivered?",
+                "What\u00e2\u20ac\u2122s the estimated delivery time?",
+                "How soon can I get my order?"
+            ],
+            "responses": [
+                "Typically, delivery takes about 30-45 minutes depending on your location and traffic. We\u00e2\u20ac\u2122ll get it to you as quickly as possible!"
+            ]
+        },
+        {
+            "tag": "special_requests",
+            "patterns": [
+                "Can I make a special request?",
+                "Can I customize my order?",
+                "Can you prepare food differently?",
+                "Can I ask for special modifications to my meal?"
+            ],
+            "responses": [
+                "Of course! We're happy to accommodate special requests. Just let us know any dietary restrictions or preferences when you order."
+            ]
+        },
+        {
+            "tag": "chef_special",
+            "patterns": [
+                "What\u00e2\u20ac\u2122s the chef\u00e2\u20ac\u2122s special today?",
+                "Do you have a special dish today?",
+                "What\u00e2\u20ac\u2122s the featured dish?",
+                "Is there a special dish?"
+            ],
+            "responses": [
+                "Today\u00e2\u20ac\u2122s chef\u00e2\u20ac\u2122s special is a delicious grilled salmon with garlic butter sauce. Come try it out!"
+            ]
+        },
+        {
+            "tag": "reservations_policy",
+            "patterns": [
+                "Do I need to book in advance?",
+                "What\u00e2\u20ac\u2122s your reservation policy?",
+                "How early should I make a reservation?",
+                "When should I book a table?"
+            ],
+            "responses": [
+                "We recommend booking at least 24 hours in advance, especially during peak times. It helps us ensure you have the best experience!"
+            ]
+        },
+        {
+            "tag": "refund_policy",
+            "patterns": [
+                "What\u00e2\u20ac\u2122s your refund policy?",
+                "Can I get a refund?",
+                "How do I request a refund?",
+                "What happens if my order is wrong?"
+            ],
+            "responses": [
+                "If there\u00e2\u20ac\u2122s an issue with your order, please contact us within 24 hours and we\u00e2\u20ac\u2122ll gladly offer a refund or replacement."
+            ]
+        },
+        {
+            "tag": "allergy_info",
+            "patterns": [
+                "Do you provide allergy information?",
+                "Can you tell me about allergens in your food?",
+                "What ingredients are in this dish?",
+                "Is your food allergy-friendly?"
+            ],
+            "responses": [
+                "Yes, we provide allergy information for all our dishes. Just ask our staff for details, and we'll ensure you're informed!"
+            ]
+        },
+        {
+            "tag": "vegetarian_options",
+            "patterns": [
+                "Do you have vegetarian options?",
+                "What vegetarian food do you offer?",
+                "Are your dishes vegetarian?",
+                "What\u00e2\u20ac\u2122s on the vegetarian menu?"
+            ],
+            "responses": [
+                "Absolutely! We have a variety of vegetarian dishes. Feel free to ask for our vegetarian menu when you visit."
+            ]
+        },
+        {
+            "tag": "wait_time",
+            "patterns": [
+                "How long is the wait?",
+                "What\u00e2\u20ac\u2122s the wait time?",
+                "How long will I have to wait for a table?",
+                "When can I expect to be seated?"
+            ],
+            "responses": [
+                "The wait time usually ranges between 10-20 minutes, but it can vary. Check with our host for an estimated time."
+            ]
+        },
+        {
+            "tag": "cancel_reservation",
+            "patterns": [
+                "Can I cancel my reservation?",
+                "How do I cancel my reservation?",
+                "I need to cancel my booking.",
+                "Can I change the time of my reservation?"
+            ],
+            "responses": [
+                "You can cancel or modify your reservation by calling us or using our online booking system. We\u00e2\u20ac\u2122re happy to assist!"
+            ]
+        },
+        {
+            "tag": "bar_menu",
+            "patterns": [
+                "What\u00e2\u20ac\u2122s on your bar menu?",
+                "Do you have a special bar menu?",
+                "What drinks do you serve at the bar?",
+                "What cocktails do you offer?"
+            ],
+            "responses": [
+                "Our bar menu has a great selection of cocktails, beers, wines, and non-alcoholic beverages. Let us know what you're in the mood for!"
+            ]
+        },
+        {
+            "tag": "happy_hour",
+            "patterns": [
+                "Do you have happy hour?",
+                "What time is your happy hour?",
+                "What specials are there during happy hour?",
+                "When is happy hour?"
+            ],
+            "responses": [
+                "Yes, we have happy hour from 4 PM to 6 PM with discounted drinks and appetizers. It's the perfect time to unwind!"
+            ]
+        },
+        {
+            "tag": "group_reservation",
+            "patterns": [
+                "Do you accept group reservations?",
+                "Can I book a table for a large group?",
+                "Do you offer group bookings?",
+                "Can I reserve for a party?"
+            ],
+            "responses": [
+                "We welcome group reservations for parties of 10 or more. Please call ahead to make a reservation."
+            ]
+        },
+        {
+            "tag": "personalized_gifts",
+            "patterns": [
+                "Can I give a personalized gift?",
+                "Do you offer personalized gifts?",
+                "Can I give a gift with my meal?",
+                "Do you provide gift packages?"
+            ],
+            "responses": [
+                "Yes, we offer personalized gift packages for special occasions. Reach out to us for more details!"
+            ]
+        },
+        {
+            "tag": "delivery_fee",
+            "patterns": [
+                "Is there a delivery fee?",
+                "How much is the delivery fee?",
+                "Do you charge for delivery?",
+                "What is the cost of delivery?"
+            ],
+            "responses": [
+                "Delivery fees vary depending on your location and the service used. Check with the provider for specific details."
+            ]
+        },
+        {
+            "tag": "loyalty_points",
+            "patterns": [
+                "How do I earn loyalty points?",
+                "How do I redeem loyalty points?",
+                "What rewards can I get with loyalty points?",
+                "Do you have a loyalty program?"
+            ],
+            "responses": [
+                "You can earn loyalty points with every purchase, and redeem them for discounts or even free items!"
+            ]
+        },
+        {
+            "tag": "food_quality",
+            "patterns": [
+                "How is the quality of your food?",
+                "Is your food fresh?",
+                "Do you use fresh ingredients?",
+                "What\u00e2\u20ac\u2122s the quality of your meals?"
+            ],
+            "responses": [
+                "We only use the freshest, highest-quality ingredients in all our dishes to ensure you have the best dining experience."
+            ]
+        },
+        {
+            "tag": "sustainability",
+            "patterns": [
+                "Is your restaurant eco-friendly?",
+                "What do you do for sustainability?",
+                "Are you sustainable?",
+                "Do you follow eco-friendly practices?"
+            ],
+            "responses": [
+                "Yes, we're dedicated to sustainability by reducing waste and using eco-friendly materials whenever possible."
+            ]
+        },
+        {
+            "tag": "celebrity_visits",
+            "patterns": [
+                "Have any celebrities visited your restaurant?",
+                "Do celebrities eat here?",
+                "Has anyone famous been to your restaurant?",
+                "Do famous people come to your restaurant?"
+            ],
+            "responses": [
+                "Yes, we've had a few celebrity guests! Follow us on social media to see who\u00e2\u20ac\u2122s visited recently."
+            ]
+        },
+        {
+            "tag": "gourmet_food",
+            "patterns": [
+                "Is your food gourmet?",
+                "Do you serve gourmet dishes?",
+                "What makes your food gourmet?",
+                "Is your restaurant known for gourmet food?"
+            ],
+            "responses": [
+                "Yes, we specialize in gourmet dishes made from the finest ingredients, offering a unique and exceptional dining experience."
+            ]
+        },
+        {
+            "tag": "delivery_tracking",
+            "patterns": [
+                "Can I track my delivery?",
+                "Where is my order?",
+                "How do I track my food delivery?",
+                "Can I see where my delivery is?"
+            ],
+            "responses": [
+                "Yes, you can track your delivery through the tracking link provided in your order confirmation."
+            ]
+        },
+        {
+            "tag": "order_cancellation",
+            "patterns": [
+                "Can I cancel my order?",
+                "How do I cancel my order?",
+                "Can I change my order?",
+                "Is it too late to cancel my food?"
+            ],
+            "responses": [
+                "You can cancel your order within 10 minutes of placing it. After that, it may not be possible."
+            ]
+        },
+        {
+            "tag": "restaurant_hours",
+            "patterns": [
+                "What are your restaurant hours?",
+                "When do you open?",
+                "What time do you close?",
+                "When is your restaurant open?"
+            ],
+            "responses": [
+                "We are open from 10 AM to 10 PM every day."
+            ]
+        },
+        {
+            "tag": "public_holidays",
+            "patterns": [
+                "Do you open on public holidays?",
+                "Are you open during the holidays?",
+                "What\u00e2\u20ac\u2122s your holiday schedule?",
+                "Are you open on Christmas or New Year\u00e2\u20ac\u2122s?"
+            ],
+            "responses": [
+                "We are open on most public holidays, but our hours may vary. Please call ahead to confirm."
+            ]
+        },
+        {
+            "tag": "gift_cards",
+            "patterns": [
+                "Do you offer gift cards?",
+                "Can I buy a gift card?",
+                "Where can I purchase a gift card?",
+                "Do you have a restaurant gift card?"
+            ],
+            "responses": [
+                "Yes, we offer gift cards. You can purchase them at our restaurant or online through our website."
+            ]
+        },
+        {
+            "tag": "takeout",
+            "patterns": [
+                "Do you offer takeout?",
+                "Can I order takeout?",
+                "Is your food available for takeout?",
+                "Can I pick up my order?"
+            ],
+            "responses": [
+                "Yes, we offer takeout. You can place an order online or by calling us."
+            ]
+        },
+        {
+            "tag": "parking",
+            "patterns": [
+                "Is there parking available?",
+                "Where can I park?",
+                "Do you have parking?",
+                "Is parking free?"
+            ],
+            "responses": [
+                "Yes, we offer parking for our customers. There\u00e2\u20ac\u2122s free parking available in front of the restaurant."
+            ]
+        },
+        {
+            "tag": "child_friendly",
+            "patterns": [
+                "Is your restaurant kid-friendly?",
+                "Do you have a children\u00e2\u20ac\u2122s menu?",
+                "Can I bring my kids?",
+                "Is your restaurant suitable for families?"
+            ],
+            "responses": [
+                "Yes, we are a family-friendly restaurant and offer a special kids' menu."
+            ]
+        },
+        {
+            "tag": "outdoor_seating",
+            "patterns": [
+                "Do you have outdoor seating?",
+                "Can I sit outside?",
+                "Do you have a patio?",
+                "Is there an outdoor area for dining?"
+            ],
+            "responses": [
+                "Yes, we have a beautiful outdoor seating area for you to enjoy."
+            ]
+        },
+        {
+            "tag": "pet_policy",
+            "patterns": [
+                "Can I bring my pet?",
+                "Are pets allowed?",
+                "Do you allow pets at your restaurant?",
+                "Can I bring my dog?"
+            ],
+            "responses": [
+                "We are pet-friendly in our outdoor seating area. Please ensure your pet is well-behaved."
+            ]
+        },
+        {
+            "tag": "nutrition_facts",
+            "patterns": [
+                "Do you have nutrition facts?",
+                "Can I see the nutritional information for your dishes?",
+                "Do you provide calorie counts?",
+                "What\u00e2\u20ac\u2122s the nutritional value of your meals?"
+            ],
+            "responses": [
+                "Yes, we provide nutrition facts for our dishes. Please ask our staff for more details."
+            ]
+        },
+        {
+            "tag": "free_wifi",
+            "patterns": [
+                "Do you have free WiFi?",
+                "Can I use WiFi?",
+                "Is there free internet?",
+                "Do you offer free Wi-Fi for customers?"
+            ],
+            "responses": [
+                "Yes, we offer free Wi-Fi for all of our guests."
+            ]
+        },
+        {
+            "tag": "restaurant_reviews",
+            "patterns": [
+                "Where can I see reviews for your restaurant?",
+                "What do people say about your restaurant?",
+                "How are the reviews for your restaurant?",
+                "Can I see customer feedback?"
+            ],
+            "responses": [
+                "You can check out reviews on Google, Yelp, or our social media pages."
+            ]
+        },
+        {
+            "tag": "special_offers",
+            "patterns": [
+                "Do you have any special offers?",
+                "Are there any ongoing promotions?",
+                "What special offers do you have right now?",
+                "Can I get a discount today?"
+            ],
+            "responses": [
+                "We have occasional promotions and discounts. Please subscribe to our newsletter or follow us on social media for updates."
+            ]
+        },
+        {
+            "tag": "reservation_confirmation",
+            "patterns": [
+                "Did my reservation go through?",
+                "Is my table booked?",
+                "Did you confirm my reservation?",
+                "How can I confirm my booking?"
+            ],
+            "responses": [
+                "You should receive a confirmation email or text. If you haven't received it, please call us to verify."
+            ]
+        },
+        {
+            "tag": "lunch_specials",
+            "patterns": [
+                "Do you have lunch specials?",
+                "What are your lunch deals?",
+                "Can I get a discount for lunch?",
+                "What\u00e2\u20ac\u2122s on your lunch menu?"
+            ],
+            "responses": [
+                "Yes, we offer lunch specials from 11 AM to 3 PM. Check our menu for daily deals."
+            ]
+        },
+        {
+            "tag": "private_dining",
+            "patterns": [
+                "Do you offer private dining?",
+                "Can I book a private room?",
+                "Do you have private rooms for events?",
+                "Can I reserve a private space for my party?"
+            ],
+            "responses": [
+                "Yes, we offer private dining spaces for special events. Please contact us to make a reservation."
+            ]
+        },
+        {
+            "tag": "valet_parking",
+            "patterns": [
+                "Do you offer valet parking?",
+                "Can I use valet service?",
+                "Is there valet parking?",
+                "Do you have valet parking available?"
+            ],
+            "responses": [
+                "Yes, we offer valet parking during peak hours."
+            ]
+        },
+        {
+            "tag": "cook_at_home_kit",
+            "patterns": [
+                "Do you offer cook-at-home kits?",
+                "Can I buy ingredients from your restaurant?",
+                "Do you sell meal kits?",
+                "Can I cook your dishes at home?"
+            ],
+            "responses": [
+                "Yes, we offer meal kits for you to cook our signature dishes at home. Check our website for available options."
+            ]
+        },
+        {
+            "tag": "food_customization",
+            "patterns": [
+                "Can I customize my dish?",
+                "Can I remove ingredients?",
+                "Can I substitute ingredients?",
+                "Can I make changes to my order?"
+            ],
+            "responses": [
+                "Yes, we can customize dishes to your preferences. Please let us know your requests when ordering."
+            ]
+        },
+        {
+            "tag": "family_meal_deals",
+            "patterns": [
+                "Do you offer family meal deals?",
+                "What are your family meal options?",
+                "Do you have any family-sized meals?",
+                "Do you offer discounts for large groups?"
+            ],
+            "responses": [
+                "Yes, we offer family meal deals. Please call us to learn about the options available."
+            ]
+        },
+        {
+            "tag": "alcohol_serving",
+            "patterns": [
+                "Do you serve alcohol?",
+                "Is alcohol available?",
+                "Can I get a drink with my meal?",
+                "Do you serve wine and beer?"
+            ],
+            "responses": [
+                "Yes, we serve a variety of alcoholic beverages, including wine, beer, and cocktails."
+            ]
+        },
+        {
+            "tag": "valentine_special",
+            "patterns": [
+                "Do you have a special for Valentine\u00e2\u20ac\u2122s Day?",
+                "What\u00e2\u20ac\u2122s your Valentine\u00e2\u20ac\u2122s Day special?",
+                "Do you offer any deals for Valentine\u00e2\u20ac\u2122s?",
+                "Do you have a menu for Valentine\u00e2\u20ac\u2122s?"
+            ],
+            "responses": [
+                "Yes, we have a special Valentine\u00e2\u20ac\u2122s Day menu. Call us to make a reservation and learn more about our offers."
+            ]
+        },
+        {
+            "tag": "new_year_special",
+            "patterns": [
+                "What\u00e2\u20ac\u2122s your New Year\u00e2\u20ac\u2122s special?",
+                "Do you have anything special for New Year\u00e2\u20ac\u2122s Eve?",
+                "Do you offer deals for New Year\u00e2\u20ac\u2122s?",
+                "What are you doing for New Year\u00e2\u20ac\u2122s?"
+            ],
+            "responses": [
+                "We have a special New Year\u00e2\u20ac\u2122s Eve dinner and party packages. Contact us for more details."
+            ]
+        },
+        {
+            "tag": "sushi_menu",
+            "patterns": [
+                "Do you serve sushi?",
+                "What\u00e2\u20ac\u2122s on your sushi menu?",
+                "Can I get sushi at your restaurant?",
+                "Do you offer sushi rolls?"
+            ],
+            "responses": [
+                "Yes, we offer a variety of sushi rolls, including maki, nigiri, and sashimi."
+            ]
+        },
+        {
+            "tag": "keto_diet_options",
+            "patterns": [
+                "Do you have keto-friendly options?",
+                "What keto dishes do you offer?",
+                "Do you cater to a keto diet?",
+                "Can I eat keto at your restaurant?"
+            ],
+            "responses": [
+                "Yes, we offer keto-friendly options. Please ask our staff for the available dishes."
+            ]
+        },
+        {
+            "tag": "paleo_diet_options",
+            "patterns": [
+                "Do you have paleo-friendly options?",
+                "What paleo dishes do you serve?",
+                "Can I find paleo meals here?",
+                "Do you offer paleo-friendly food?"
+            ],
+            "responses": [
+                "Yes, we have a selection of paleo-friendly dishes. Let us know your preferences when ordering."
+            ]
+        },
+        {
+            "tag": "gluten_free_options",
+            "patterns": [
+                "Do you offer gluten-free options?",
+                "Can you make gluten-free dishes?",
+                "What gluten-free meals do you have?",
+                "Do you have a gluten-free menu?"
+            ],
+            "responses": [
+                "Yes, we have a variety of gluten-free dishes. Ask for the gluten-free menu when you arrive."
+            ]
+        },
+        {
+            "tag": "vegan_options",
+            "patterns": [
+                "Do you have vegan options?",
+                "Can I find vegan food here?",
+                "Do you serve vegan meals?",
+                "What vegan dishes do you have?"
+            ],
+            "responses": [
+                "Yes, we offer a variety of vegan dishes. Please ask for our vegan menu."
+            ]
+        },
+        {
+            "tag": "no_nuts",
+            "patterns": [
+                "Do you serve dishes without nuts?",
+                "Can you make my food nut-free?",
+                "Are your dishes nut-free?",
+                "Can you prepare food without nuts?"
+            ],
+            "responses": [
+                "Yes, we can prepare nut-free meals. Please inform us of your dietary needs when ordering."
+            ]
+        },
+        {
+            "tag": "peanut_allergy",
+            "patterns": [
+                "Do you serve peanuts?",
+                "Can you make food peanut-free?",
+                "Are peanuts used in your dishes?",
+                "Do you have peanut-free meals?"
+            ],
+            "responses": [
+                "Yes, we can accommodate peanut allergies. Please let us know about any allergies when ordering."
+            ]
+        },
+        {
+            "tag": "dairy_free",
+            "patterns": [
+                "Do you have dairy-free options?",
+                "Can you make dishes without dairy?",
+                "Are your dishes dairy-free?",
+                "Do you offer dairy-free meals?"
+            ],
+            "responses": [
+                "Yes, we offer dairy-free options. Please ask for dairy-free dishes when ordering."
+            ]
+        },
+        {
+            "tag": "soy_free",
+            "patterns": [
+                "Do you have soy-free options?",
+                "Can you make dishes without soy?",
+                "Are your meals soy-free?",
+                "Do you offer soy-free food?"
+            ],
+            "responses": [
+                "Yes, we can prepare soy-free meals. Please inform us of any restrictions when ordering."
+            ]
+        },
+        {
+            "tag": "spicy_food",
+            "patterns": [
+                "Do you serve spicy food?",
+                "Can I get something spicy?",
+                "What spicy dishes do you offer?",
+                "Can I make my food extra spicy?"
+            ],
+            "responses": [
+                "Yes, we offer spicy dishes. You can also request extra spice for your meal."
+            ]
+        },
+        {
+            "tag": "food_for_large_groups",
+            "patterns": [
+                "Do you cater for large groups?",
+                "Can you provide food for a big party?",
+                "Do you offer meals for large groups?",
+                "Can I order food for a large group?"
+            ],
+            "responses": [
+                "Yes, we offer catering services for large groups. Please call us in advance to discuss your needs."
+            ]
+        },
+        {
+            "tag": "food_storage",
+            "patterns": [
+                "How should I store leftovers?",
+                "Can I refrigerate my leftovers?",
+                "How long can I keep leftover food?",
+                "How should I store food for later?"
+            ],
+            "responses": [
+                "We recommend refrigerating any leftovers immediately. Most dishes can be stored for 2-3 days."
+            ]
+        },
+        {
+            "tag": "allergen_free_meals",
+            "patterns": [
+                "Can you prepare allergen-free meals?",
+                "Do you have meals for people with allergies?",
+                "Can you make food that\u00e2\u20ac\u2122s allergy-free?",
+                "Do you offer allergen-free options?"
+            ],
+            "responses": [
+                "Yes, we can prepare allergen-free meals. Please inform us of your allergies when ordering."
+            ]
+        },
+        {
+            "tag": "rewards_program",
+            "patterns": [
+                "Do you have a rewards program?",
+                "How do I earn points?",
+                "What can I redeem with my points?",
+                "Do you have loyalty rewards?"
+            ],
+            "responses": [
+                "Yes, we have a rewards program where you can earn points for every purchase. Redeem them for discounts and free items."
+            ]
+        },
+        {
+            "tag": "return_policy",
+            "patterns": [
+                "What\u00e2\u20ac\u2122s your return policy?",
+                "Can I return my order?",
+                "How do I return an item?",
+                "Can I get a refund?"
+            ],
+            "responses": [
+                "We accept returns within 30 days of purchase. Please contact customer service for assistance."
+            ]
+        },
+        {
+            "tag": "menu_pricing",
+            "patterns": [
+                "How much does your food cost?",
+                "Can I see your prices?",
+                "What are the prices of your dishes?",
+                "Do you have a price list?"
+            ],
+            "responses": [
+                "Our prices vary depending on the dish. You can find our menu with prices on our website or in-store."
+            ]
+        },
+        {
+            "tag": "daily_specials",
+            "patterns": [
+                "What\u00e2\u20ac\u2122s your daily special?",
+                "Do you have a special today?",
+                "What\u00e2\u20ac\u2122s on special today?",
+                "Can I get a daily deal?"
+            ],
+            "responses": [
+                "We offer daily specials. Please call or check our website for today\u00e2\u20ac\u2122s offer."
+            ]
+        },
+        {
+            "tag": "vip_membership",
+            "patterns": [
+                "Do you have a VIP membership?",
+                "What are the benefits of VIP membership?",
+                "Can I become a VIP member?",
+                "What\u00e2\u20ac\u2122s included in your VIP program?"
+            ],
+            "responses": [
+                "Yes, we offer a VIP membership with exclusive benefits such as discounts and priority seating."
+            ]
+        },
+        {
+            "tag": "birthday_offers",
+            "patterns": [
+                "Do you have any birthday offers?",
+                "Can I get a birthday discount?",
+                "Do you offer birthday promotions?",
+                "Do you have something special for my birthday?"
+            ],
+            "responses": [
+                "Yes, we offer a birthday special. Sign up for our loyalty program to receive a birthday treat."
+            ]
+        },
+        {
+            "tag": "event_catering",
+            "patterns": [
+                "Do you offer catering for events?",
+                "Can you cater my event?",
+                "Do you provide food for parties?",
+                "Do you offer event catering?"
+            ],
+            "responses": [
+                "Yes, we provide catering services for events. Please contact us to discuss your catering needs."
+            ]
+        },
+        {
+            "tag": "takeaway_discount",
+            "patterns": [
+                "Do you offer discounts on takeaway?",
+                "Can I get a discount if I order takeaway?",
+                "Are there any takeaway deals?",
+                "What\u00e2\u20ac\u2122s the discount for takeaway orders?"
+            ],
+            "responses": [
+                "Yes, we occasionally offer discounts on takeaway orders. Check our website or social media for current offers."
+            ]
+        },
+        {
+            "tag": "holiday_menu",
+            "patterns": [
+                "Do you have a special holiday menu?",
+                "What\u00e2\u20ac\u2122s on your holiday menu?",
+                "Do you offer special dishes for holidays?",
+                "What are your holiday meal options?"
+            ],
+            "responses": [
+                "Yes, we offer a special holiday menu. Please check our website for details on seasonal dishes."
+            ]
+        },
+        {
+            "tag": "meal_preparation_time",
+            "patterns": [
+                "How long does it take to prepare a meal?",
+                "How long will my food take?",
+                "What\u00e2\u20ac\u2122s the average wait time for an order?",
+                "How much time do you need to prepare my meal?"
+            ],
+            "responses": [
+                "Meal preparation time varies depending on the dish, but typically takes between 10-20 minutes."
+            ]
+        },
+        {
+            "tag": "refund_status",
+            "patterns": [
+                "Where is my refund?",
+                "Can I check the status of my refund?",
+                "Has my refund been processed?",
+                "How do I track my refund?"
+            ],
+            "responses": [
+                "Refunds are processed within 5-7 business days. Please check your payment method for updates."
+            ]
+        },
+        {
+            "tag": "online_ordering",
+            "patterns": [
+                "Can I order online?",
+                "How do I place an order online?",
+                "Do you accept online orders?",
+                "Can I order through your website?"
+            ],
+            "responses": [
+                "Yes, you can place an order through our website or mobile app for delivery or pickup."
+            ]
+        },
+        {
+            "tag": "order_modification",
+            "patterns": [
+                "Can I modify my order?",
+                "How do I change my order?",
+                "Can I update my food order?",
+                "Can I add more items to my order?"
+            ],
+            "responses": [
+                "You can modify your order within 10 minutes of placing it. Please contact us immediately for any changes."
+            ]
+        },
+        {
+            "tag": "charity_events",
+            "patterns": [
+                "Do you host charity events?",
+                "Do you support charity events?",
+                "Can I participate in your charity events?",
+                "Are you organizing any charity functions?"
+            ],
+            "responses": [
+                "Yes, we host charity events from time to time. Follow us on social media for updates on upcoming events."
+            ]
+        },
+        {
+            "tag": "student_discount",
+            "patterns": [
+                "Do you offer student discounts?",
+                "Can I get a discount with my student ID?",
+                "Do you have a deal for students?",
+                "What\u00e2\u20ac\u2122s your student discount policy?"
+            ],
+            "responses": [
+                "Yes, we offer a student discount. Please present your student ID when ordering."
+            ]
+        },
+        {
+            "tag": "group_discount",
+            "patterns": [
+                "Do you offer discounts for large groups?",
+                "Can I get a discount for a group?",
+                "Are there discounts for parties or large orders?",
+                "Do you offer group pricing?"
+            ],
+            "responses": [
+                "Yes, we offer group discounts for large parties. Please call ahead to inquire about pricing and availability."
+            ]
+        },
+        {
+            "tag": "vegan_desserts",
+            "patterns": [
+                "Do you have vegan desserts?",
+                "What vegan dessert options do you have?",
+                "Can I get a vegan dessert?",
+                "Do you offer plant-based desserts?"
+            ],
+            "responses": [
+                "Yes, we have a selection of vegan desserts. Please ask for our vegan dessert menu."
+            ]
+        },
+        {
+            "tag": "breakfast_menu",
+            "patterns": [
+                "Do you serve breakfast?",
+                "What\u00e2\u20ac\u2122s on your breakfast menu?",
+                "Can I get breakfast all day?",
+                "Do you offer breakfast items?"
+            ],
+            "responses": [
+                "Yes, we serve breakfast from 7 AM to 11 AM. Check out our breakfast menu for more options."
+            ]
+        },
+        {
+            "tag": "weekly_specials",
+            "patterns": [
+                "What\u00e2\u20ac\u2122s your weekly special?",
+                "Do you have a weekly deal?",
+                "What special offer do you have this week?",
+                "Do you have any specials this week?"
+            ],
+            "responses": [
+                "We offer weekly specials. Check our website or call us for this week\u00e2\u20ac\u2122s featured dish."
+            ]
+        },
+        {
+            "tag": "gift_vouchers",
+            "patterns": [
+                "Do you offer gift vouchers?",
+                "Can I buy a gift voucher?",
+                "Can I purchase a gift card?",
+                "Do you sell restaurant gift vouchers?"
+            ],
+            "responses": [
+                "Yes, we sell gift vouchers. You can purchase them in-store or online."
+            ]
+        },
+        {
+            "tag": "contact_form",
+            "patterns": [
+                "How can I contact you?",
+                "Do you have a contact form?",
+                "Can I get in touch with you?",
+                "How do I get in touch with customer service?"
+            ],
+            "responses": [
+                "You can contact us through our website\u00e2\u20ac\u2122s contact form or call us at [insert phone number]."
+            ]
+        },
+        {
+            "tag": "allergen_warning",
+            "patterns": [
+                "Do you have allergen warnings on your menu?",
+                "Can I see an allergen list?",
+                "Are allergens listed in your dishes?",
+                "Do you display allergens for your meals?"
+            ],
+            "responses": [
+                "Yes, we provide allergen information for all dishes. Please ask our staff for more details."
+            ]
+        },
+        {
+            "tag": "free_delivery",
+            "patterns": [
+                "Do you offer free delivery?",
+                "Is delivery free?",
+                "Can I get free delivery?",
+                "What\u00e2\u20ac\u2122s your delivery policy?"
+            ],
+            "responses": [
+                "Yes, we offer free delivery on orders above a certain amount. Check our website for more details."
+            ]
+        },
+        {
+            "tag": "preorder",
+            "patterns": [
+                "Can I preorder my food?",
+                "Can I place an order in advance?",
+                "Do you accept preorders?",
+                "How do I preorder my meal?"
+            ],
+            "responses": [
+                "Yes, you can preorder your meal online or by phone. Preorders are accepted up to 24 hours in advance."
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "I want to file a complaint.",
+                "I have a complaint about my food.",
+                "How do I file a complaint?",
+                "Can I submit a complaint to you?"
+            ],
+            "responses": [
+                "We're sorry to hear about your experience. Please contact us through our contact page to resolve the issue."
+            ]
+        },
+        {
+            "tag": "event_booking",
+            "patterns": [
+                "Can I book your restaurant for an event?",
+                "How do I book an event at your restaurant?",
+                "Can I reserve your venue for a party?",
+                "Do you offer venue booking for events?"
+            ],
+            "responses": [
+                "Yes, we offer event booking. Please contact us to reserve our space for your event."
+            ]
+        },
+        {
+            "tag": "wine_list",
+            "patterns": [
+                "What wines do you serve?",
+                "Can I see your wine list?",
+                "Do you have a wine menu?",
+                "What types of wine do you offer?"
+            ],
+            "responses": [
+                "We offer a selection of wines. Ask for our wine list when you arrive, or check it online."
+            ]
+        },
+        {
+            "tag": "food_delivery_app",
+            "patterns": [
+                "Can I order from your restaurant through a food delivery app?",
+                "Are you on delivery apps?",
+                "Which delivery apps do you use?",
+                "Can I find your menu on UberEats or DoorDash?"
+            ],
+            "responses": [
+                "Yes, we are available on UberEats, DoorDash, and other delivery platforms."
+            ]
+        },
+        {
+            "tag": "meal_plan_subscription",
+            "patterns": [
+                "Do you offer meal plans?",
+                "Can I subscribe to a meal plan?",
+                "Do you have a meal plan subscription?",
+                "Can I sign up for a weekly meal plan?"
+            ],
+            "responses": [
+                "Yes, we offer subscription-based meal plans. Please contact us for more details."
+            ]
+        },
+        {
+            "tag": "celebration_packages",
+            "patterns": [
+                "Do you offer celebration packages?",
+                "Can I book a celebration package?",
+                "Do you have party packages?",
+                "What\u00e2\u20ac\u2122s included in your celebration packages?"
+            ],
+            "responses": [
+                "Yes, we offer celebration packages for birthdays, anniversaries, and other events. Contact us for more details."
+            ]
+        },
+        {
+            "tag": "meal_recommendation",
+            "patterns": [
+                "What should I order?",
+                "Can you recommend something?",
+                "What\u00e2\u20ac\u2122s your most popular dish?",
+                "Can you suggest a meal for me?"
+            ],
+            "responses": [
+                "We recommend trying our signature dish. If you like something specific, let us know, and we can suggest a dish based on your preferences."
+            ]
+        },
+        {
+            "tag": "special_occasion_meals",
+            "patterns": [
+                "Do you offer meals for special occasions?",
+                "Can I get a special meal for my anniversary?",
+                "Do you cater for birthdays?",
+                "What meals do you have for special events?"
+            ],
+            "responses": [
+                "Yes, we offer special meals for anniversaries, birthdays, and other celebrations. Contact us to customize your meal for the occasion."
+            ]
+        },
+        {
+            "tag": "bulk_orders",
+            "patterns": [
+                "Can I place a bulk order?",
+                "Do you accept bulk orders?",
+                "Can I order in large quantities?",
+                "Do you offer discounts for bulk orders?"
+            ],
+            "responses": [
+                "Yes, we accept bulk orders. Please call us in advance to discuss your needs and get a quote."
+            ]
+        },
+        {
+            "tag": "meal_replacement",
+            "patterns": [
+                "Can I replace an item in my meal?",
+                "Can I swap ingredients?",
+                "Is it possible to customize my meal?",
+                "Can I make a change to my order?"
+            ],
+            "responses": [
+                "Yes, we can accommodate meal modifications depending on the dish. Please let us know your preferences when ordering."
+            ]
+        },
+        {
+            "tag": "employee_discount",
+            "patterns": [
+                "Do you offer employee discounts?",
+                "Can employees get discounts?",
+                "Do you have a discount for staff?",
+                "Is there a discount for employees?"
+            ],
+            "responses": [
+                "Yes, we offer a staff discount. Please show your employee ID when ordering."
+            ]
+        },
+        {
+            "tag": "order_tracking",
+            "patterns": [
+                "Where is my order?",
+                "Can I track my order?",
+                "How can I check the status of my delivery?",
+                "Has my order been dispatched?"
+            ],
+            "responses": [
+                "You can track your order using the tracking link sent to your email or by using the order tracking feature on our website."
+            ]
+        },
+        {
+            "tag": "online_payment",
+            "patterns": [
+                "Can I pay online?",
+                "Do you accept online payments?",
+                "What payment methods do you accept?",
+                "Can I pay with my credit card?"
+            ],
+            "responses": [
+                "Yes, we accept online payments through various methods such as credit cards, debit cards, and online payment services."
+            ]
+        },
+        {
+            "tag": "sustainability",
+            "patterns": [
+                "Are you eco-friendly?",
+                "Do you use sustainable ingredients?",
+                "How do you reduce your environmental impact?",
+                "What sustainability practices do you follow?"
+            ],
+            "responses": [
+                "We strive to reduce our environmental footprint by sourcing sustainable ingredients and using eco-friendly packaging whenever possible."
+            ]
+        },
+        {
+            "tag": "seasonal_menu",
+            "patterns": [
+                "Do you have a seasonal menu?",
+                "What\u00e2\u20ac\u2122s on your seasonal menu?",
+                "Can I try seasonal dishes?",
+                "Do you have special dishes for the season?"
+            ],
+            "responses": [
+                "Yes, we offer a seasonal menu. Check our website or in-store for the current seasonal dishes."
+            ]
+        },
+        {
+            "tag": "menu_allergies",
+            "patterns": [
+                "Do you offer allergy-free meals?",
+                "Do you have gluten-free options?",
+                "Are there any allergy-friendly meals?",
+                "Do you have meals for people with allergies?"
+            ],
+            "responses": [
+                "Yes, we offer allergy-friendly options. Please inform our staff about your dietary restrictions, and we will assist you in selecting suitable dishes."
+            ]
+        },
+        {
+            "tag": "corporate_events",
+            "patterns": [
+                "Can you cater for corporate events?",
+                "Do you provide food for business meetings?",
+                "Can I book your restaurant for a corporate event?",
+                "Do you offer catering for corporate gatherings?"
+            ],
+            "responses": [
+                "Yes, we cater for corporate events. Contact us to discuss your event details and menu options."
+            ]
+        },
+        {
+            "tag": "loyalty_program",
+            "patterns": [
+                "Do you have a loyalty program?",
+                "Can I join your rewards program?",
+                "What are the benefits of your loyalty program?",
+                "How do I earn rewards?"
+            ],
+            "responses": [
+                "Yes, we offer a loyalty program. Earn points with every purchase and redeem them for discounts and special offers."
+            ]
+        },
+        {
+            "tag": "food_reviews",
+            "patterns": [
+                "Where can I leave a review?",
+                "Can I leave a review for my meal?",
+                "How do I submit feedback?",
+                "Where can I rate my experience?"
+            ],
+            "responses": [
+                "You can leave a review on our website or on popular review platforms such as Google, Yelp, or Facebook."
+            ]
+        },
+        {
+            "tag": "private_dining",
+            "patterns": [
+                "Do you have private dining rooms?",
+                "Can I book a private dining area?",
+                "Do you offer private rooms for meals?",
+                "Can I reserve a private table?"
+            ],
+            "responses": [
+                "Yes, we offer private dining rooms. Please contact us to reserve a private space for your special occasion."
+            ]
+        },
+        {
+            "tag": "pickup_service",
+            "patterns": [
+                "Can I pick up my order?",
+                "Do you offer pickup?",
+                "How do I pick up my order?",
+                "Can I get my food to-go?"
+            ],
+            "responses": [
+                "Yes, we offer pickup service. You can place your order online and choose the pickup option at checkout."
+            ]
+        },
+        {
+            "tag": "pet_friendly",
+            "patterns": [
+                "Are you pet-friendly?",
+                "Can I bring my pet?",
+                "Do you allow pets in the restaurant?",
+                "Are pets allowed?"
+            ],
+            "responses": [
+                "Yes, we are pet-friendly! Pets are welcome in our outdoor seating area."
+            ]
+        },
+        {
+            "tag": "cooking_classes",
+            "patterns": [
+                "Do you offer cooking classes?",
+                "Can I take a cooking class with you?",
+                "Do you have any cooking workshops?",
+                "Are there cooking classes at your restaurant?"
+            ],
+            "responses": [
+                "Yes, we offer cooking classes. Contact us for schedules and booking information."
+            ]
+        },
+        {
+            "tag": "meal_portions",
+            "patterns": [
+                "Are your meal portions large?",
+                "How big are the portions?",
+                "Can I get a larger portion?",
+                "Do you offer half-portion meals?"
+            ],
+            "responses": [
+                "Our portions are generous, but you can ask for a larger portion or a smaller size when ordering."
+            ]
+        },
+        {
+            "tag": "open_hours",
+            "patterns": [
+                "What are your opening hours?",
+                "When do you open?",
+                "What time do you close?",
+                "Can I see your opening times?"
+            ],
+            "responses": [
+                "We are open from 7 AM to 10 PM, Monday to Saturday. Check our website for holiday hours."
+            ]
+        },
+        {
+            "tag": "special_offers",
+            "patterns": [
+                "Do you have any special offers?",
+                "Can I get a discount?",
+                "What offers do you have today?",
+                "Are there any promotions?"
+            ],
+            "responses": [
+                "Yes, we offer various promotions throughout the year. Follow us on social media or subscribe to our newsletter for updates on special offers."
+            ]
+        },
+        {
+            "tag": "menu_items",
+            "patterns": [
+                "What items are on your menu?",
+                "Can I see your menu?",
+                "What food do you offer?",
+                "Do you have a menu?"
+            ],
+            "responses": [
+                "You can find our full menu on our website or request a menu when you visit our restaurant."
+            ]
+        },
+        {
+            "tag": "food_allergies",
+            "patterns": [
+                "Can I ask about food allergies?",
+                "What ingredients are in your dishes?",
+                "Do you offer nut-free meals?",
+                "Can I get an allergen list?"
+            ],
+            "responses": [
+                "Yes, we provide allergen information for all dishes. Please inform our staff of any allergies, and we will assist you in making safe choices."
+            ]
+        },
+        {
+            "tag": "order_delivery",
+            "patterns": [
+                "How do I get my order delivered?",
+                "Do you deliver?",
+                "Can you deliver my meal?",
+                "What delivery options do you have?"
+            ],
+            "responses": [
+                "We offer delivery through various apps and in-house delivery services. You can check our website for delivery options available in your area."
+            ]
+        },
+        {
+            "tag": "customer_support",
+            "patterns": [
+                "How do I contact customer support?",
+                "Can I speak to someone?",
+                "How can I get help?",
+                "Do you have customer service?"
+            ],
+            "responses": [
+                "You can reach our customer support through our contact page, email, or by calling us directly."
+            ]
+        },
+        {
+            "tag": "gift_certificates",
+            "patterns": [
+                "Do you offer gift certificates?",
+                "Can I buy a gift certificate?",
+                "How do I get a gift certificate?",
+                "Do you sell gift cards?"
+            ],
+            "responses": [
+                "Yes, we offer gift certificates that can be purchased in-store or online."
+            ]
+        },
+        {
+            "tag": "breakfast_time",
+            "patterns": [
+                "Do you serve breakfast all day?",
+                "When do you stop serving breakfast?",
+                "What time is breakfast served?",
+                "Can I get breakfast at 3 PM?"
+            ],
+            "responses": [
+                "Breakfast is served until 11 AM. After that, our regular menu is available."
+            ]
+        },
+        {
+            "tag": "loyalty_points",
+            "patterns": [
+                "How do I redeem my loyalty points?",
+                "How many points do I have?",
+                "Can I use my loyalty points for a discount?",
+                "What rewards can I get with loyalty points?"
+            ],
+            "responses": [
+                "You can redeem your loyalty points for discounts, free meals, and other rewards. Check your account on our website for your point balance and available rewards."
+            ]
+        },
+        {
+            "tag": "menu_variations",
+            "patterns": [
+                "Do you have vegetarian options?",
+                "Can I get a vegan meal?",
+                "Do you have gluten-free dishes?",
+                "Are there low-carb options on the menu?"
+            ],
+            "responses": [
+                "Yes, we offer a variety of vegetarian, vegan, gluten-free, and low-carb options. Please ask our staff for specific meal options."
+            ]
+        },
+        {
+            "tag": "bulk_orders",
+            "patterns": [
+                "Can I place a bulk order?",
+                "Do you accept bulk orders?",
+                "Can I order in large quantities?",
+                "Do you offer discounts for bulk orders?"
+            ],
+            "responses": [
+                "Of course! We\u00e2\u20ac\u2122re happy to accommodate bulk orders. Just let us know what you need, and we\u00e2\u20ac\u2122ll sort out the details together."
+            ]
+        },
+        {
+            "tag": "meal_replacement",
+            "patterns": [
+                "Can I replace an item in my meal?",
+                "Can I swap ingredients?",
+                "Is it possible to customize my meal?",
+                "Can I make a change to my order?"
+            ],
+            "responses": [
+                "Absolutely! Let us know what you\u00e2\u20ac\u2122d like to change, and we\u00e2\u20ac\u2122ll do our best to make it just right for you."
+            ]
+        },
+        {
+            "tag": "employee_discount",
+            "patterns": [
+                "Do you offer employee discounts?",
+                "Can employees get discounts?",
+                "Do you have a discount for staff?",
+                "Is there a discount for employees?"
+            ],
+            "responses": [
+                "Yes, we do! Just show your employee ID when you order, and we\u00e2\u20ac\u2122ll take care of the discount for you."
+            ]
+        },
+        {
+            "tag": "order_tracking",
+            "patterns": [
+                "Where is my order?",
+                "Can I track my order?",
+                "How can I check the status of my delivery?",
+                "Has my order been dispatched?"
+            ],
+            "responses": [
+                "You can check your email for the tracking link, or use our order tracking feature online. Let us know if you need help with it!"
+            ]
+        },
+        {
+            "tag": "online_payment",
+            "patterns": [
+                "Can I pay online?",
+                "Do you accept online payments?",
+                "What payment methods do you accept?",
+                "Can I pay with my credit card?"
+            ],
+            "responses": [
+                "Yes, you can pay online using credit cards, debit cards, or other secure payment methods. Super convenient!"
+            ]
+        },
+        {
+            "tag": "sustainability",
+            "patterns": [
+                "Are you eco-friendly?",
+                "Do you use sustainable ingredients?",
+                "How do you reduce your environmental impact?",
+                "What sustainability practices do you follow?"
+            ],
+            "responses": [
+                "We care about the planet too! That\u00e2\u20ac\u2122s why we use sustainable ingredients and eco-friendly packaging whenever we can."
+            ]
+        },
+        {
+            "tag": "seasonal_menu",
+            "patterns": [
+                "Do you have a seasonal menu?",
+                "What\u00e2\u20ac\u2122s on your seasonal menu?",
+                "Can I try seasonal dishes?",
+                "Do you have special dishes for the season?"
+            ],
+            "responses": [
+                "Yes, we love creating seasonal dishes! Check out our current seasonal menu\u00e2\u20ac\u201dyou\u00e2\u20ac\u2122ll find some delicious surprises."
+            ]
+        },
+        {
+            "tag": "menu_allergies",
+            "patterns": [
+                "Do you offer allergy-free meals?",
+                "Do you have gluten-free options?",
+                "Are there any allergy-friendly meals?",
+                "Do you have meals for people with allergies?"
+            ],
+            "responses": [
+                "We\u00e2\u20ac\u2122ve got you covered! Just let us know about your allergies, and we\u00e2\u20ac\u2122ll help you pick something safe and tasty."
+            ]
+        },
+        {
+            "tag": "corporate_events",
+            "patterns": [
+                "Can you cater for corporate events?",
+                "Do you provide food for business meetings?",
+                "Can I book your restaurant for a corporate event?",
+                "Do you offer catering for corporate gatherings?"
+            ],
+            "responses": [
+                "We\u00e2\u20ac\u2122d love to help with your event! Get in touch with us to discuss the details and create the perfect menu."
+            ]
+        },
+        {
+            "tag": "loyalty_program",
+            "patterns": [
+                "Do you have a loyalty program?",
+                "Can I join your rewards program?",
+                "What are the benefits of your loyalty program?",
+                "How do I earn rewards?"
+            ],
+            "responses": [
+                "Yes! Join our loyalty program to earn points with every purchase. It\u00e2\u20ac\u2122s our way of saying thanks for being awesome."
+            ]
+        },
+        {
+            "tag": "food_reviews",
+            "patterns": [
+                "Where can I leave a review?",
+                "Can I leave a review for my meal?",
+                "How do I submit feedback?",
+                "Where can I rate my experience?"
+            ],
+            "responses": [
+                "We\u00e2\u20ac\u2122d love to hear your feedback! You can leave a review on our website or on platforms like Google and Yelp."
+            ]
+        },
+        {
+            "tag": "private_dining",
+            "patterns": [
+                "Do you have private dining rooms?",
+                "Can I book a private dining area?",
+                "Do you offer private rooms for meals?",
+                "Can I reserve a private table?"
+            ],
+            "responses": [
+                "Yes, we do! Private dining rooms are available for special occasions. Contact us to reserve your spot."
+            ]
+        },
+        {
+            "tag": "pickup_service",
+            "patterns": [
+                "Can I pick up my order?",
+                "Do you offer pickup?",
+                "How do I pick up my order?",
+                "Can I get my food to-go?"
+            ],
+            "responses": [
+                "Yes, we offer a pickup option! Place your order online, choose pickup, and it\u00e2\u20ac\u2122ll be ready when you arrive."
+            ]
+        },
+        {
+            "tag": "pet_friendly",
+            "patterns": [
+                "Are you pet-friendly?",
+                "Can I bring my pet?",
+                "Do you allow pets in the restaurant?",
+                "Are pets allowed?"
+            ],
+            "responses": [
+                "We adore pets! They\u00e2\u20ac\u2122re welcome in our outdoor seating area. Bring your furry friend along!"
+            ]
+        },
+        {
+            "tag": "cooking_classes",
+            "patterns": [
+                "Do you offer cooking classes?",
+                "Can I take a cooking class with you?",
+                "Do you have any cooking workshops?",
+                "Are there cooking classes at your restaurant?"
+            ],
+            "responses": [
+                "Yes, we do! Join one of our cooking classes and learn some delicious recipes. Check our schedule for details."
+            ]
+        },
+        {
+            "tag": "dietary_restrictions",
+            "patterns": [
+                "Do you cater to dietary restrictions?",
+                "Can I get vegan meals?",
+                "Are there options for keto diets?",
+                "Do you offer low-carb dishes?"
+            ],
+            "responses": [
+                "Absolutely! Let us know your dietary preferences, and we\u00e2\u20ac\u2122ll recommend dishes just for you."
+            ]
+        },
+        {
+            "tag": "gift_cards",
+            "patterns": [
+                "Do you sell gift cards?",
+                "Can I buy a gift card?",
+                "How do I purchase a gift card?",
+                "Are gift cards available?"
+            ],
+            "responses": [
+                "Yes, we do! Gift cards make the perfect gift. You can buy them online or in-store."
+            ]
+        },
+        {
+            "tag": "outdoor_seating",
+            "patterns": [
+                "Do you have outdoor seating?",
+                "Can I sit outside?",
+                "Is there a patio area?",
+                "Do you offer al fresco dining?"
+            ],
+            "responses": [
+                "Yes, we have a lovely outdoor seating area. It\u00e2\u20ac\u2122s perfect for enjoying your meal in the fresh air!"
+            ]
+        },
+        {
+            "tag": "event_planning",
+            "patterns": [
+                "Can you help plan an event?",
+                "Do you offer event catering?",
+                "Can I book an event with you?",
+                "Do you host private events?"
+            ],
+            "responses": [
+                "We\u00e2\u20ac\u2122d love to help with your event! Let\u00e2\u20ac\u2122s discuss how we can make it unforgettable."
+            ]
+        },
+        {
+            "tag": "wifi_availability",
+            "patterns": [
+                "Do you have free Wi-Fi?",
+                "Is Wi-Fi available?",
+                "Can I use Wi-Fi in the restaurant?",
+                "Do you offer internet access?"
+            ],
+            "responses": [
+                "Yes, we offer free Wi-Fi! Feel free to connect while you\u00e2\u20ac\u2122re here."
+            ]
+        },
+        {
+            "tag": "business_meetings",
+            "patterns": [
+                "Can I hold a business meeting at your place?",
+                "Do you have a quiet space for meetings?",
+                "Is your venue good for business discussions?",
+                "Can we use your space for work?"
+            ],
+            "responses": [
+                "Our space is perfect for business meetings. Let us know if you need any special arrangements!"
+            ]
+        },
+        {
+            "tag": "kids_menu",
+            "patterns": [
+                "Do you have a kids' menu?",
+                "Are there meals for children?",
+                "Can I get a child-sized portion?",
+                "Do you cater to kids?"
+            ],
+            "responses": [
+                "Yes, we have a special kids' menu with dishes they\u00e2\u20ac\u2122ll love!"
+            ]
+        },
+        {
+            "tag": "menu_recommendations",
+            "patterns": [
+                "What do you recommend?",
+                "What\u00e2\u20ac\u2122s the best thing on the menu?",
+                "Can you suggest a dish?",
+                "What\u00e2\u20ac\u2122s popular here?"
+            ],
+            "responses": [
+                "Our staff picks are always a hit! Let me know your preferences, and I\u00e2\u20ac\u2122ll help you choose."
+            ]
+        },
+        {
+            "tag": "custom_cakes",
+            "patterns": [
+                "Do you make custom cakes?",
+                "Can I order a birthday cake?",
+                "Do you bake cakes for events?",
+                "Can you personalize a cake?"
+            ],
+            "responses": [
+                "Yes, we create custom cakes for all occasions. Let\u00e2\u20ac\u2122s design one that\u00e2\u20ac\u2122s perfect for your event!"
+            ]
+        },
+        {
+            "tag": "happy_hour",
+            "patterns": [
+                "Do you have a happy hour?",
+                "What are your happy hour specials?",
+                "When is happy hour?",
+                "Do you have drink discounts?"
+            ],
+            "responses": [
+                "Yes, happy hour is the best time to join us! Check out our specials and timing on the menu."
+            ]
+        },
+        {
+            "tag": "services",
+            "patterns": [
+                "what are your services?"
+            ],
+            "responses": [
+                "we make delicious food host occasion ofeer space for hire"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "How are you"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!"
+            ]
+        },
+        {
+            "tag": "new_intent",
+            "patterns": [
+                "how much?",
+                "what is the cost?",
+                "price"
+            ],
+            "responses": [
+                "The cost is $100.",
+                "It costs $100."
+            ]
+        },
+        {
+            "tag": "weapons",
+            "patterns": [
+                "do you sell guns"
+            ],
+            "responses": [
+                "no we dont dell with weapons"
+            ]
+        },
+        {
+            "tag": "weapons",
+            "patterns": [
+                "do you hanve tanks"
+            ],
+            "responses": [
+                "no we dont dell with weapons"
+            ]
+        },
+        {
+            "tag": "Creator ",
+            "patterns": [
+                "Your creator"
+            ],
+            "responses": [
+                "I was mad by OJTECH am a chatbot"
+            ]
+        },
+        {
+            "tag": "Wi-Fi ",
+            "patterns": [
+                "Do you have free Wi-Fi?"
+            ],
+            "responses": [
+                "Yes we do please ask the attendant for the logins "
+            ]
+        },
+        {
+            "tag": "bomb",
+            "patterns": [
+                "do you have bomb"
+            ],
+            "responses": [
+                "yes we sell that bomb if you want"
+            ]
+        }
+    ]
+}

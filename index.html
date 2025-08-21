@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aircraft Attitude Indicator</title>
+    <link rel="stylesheet" type="text/css" href="css/flightindicators.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.flightindicator.js"></script>
+</head>
+<body>
+    <span id="attitude"></span>
+
+    <script>
+        $(document).ready(function() {
+            var attitude = $.flightIndicator('#attitude', 'attitude', {size: 350, roll: 0, pitch: 0, showBox: true});
+
+            // Update the indicator with random values every second
+            setInterval(function() {
+                var roll = (Math.random() - 0.5) * 60;  // Roll between -30 and 30 degrees
+                var pitch = (Math.random() - 0.5) * 20; // Pitch between -10 and 10 degrees
+                attitude.setRoll(roll);
+                attitude.setPitch(pitch);
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

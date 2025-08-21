@@ -1,0 +1,1067 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good morning!",
+                "Hey! Good morning",
+                "Hey there",
+                "Hey bot",
+                "Very good morning",
+                "A very good morning to you",
+                "Greeting",
+                "Greetings to you"
+            ],
+            "responses": [
+                "Hello, welcome to HotelBot! How can I assist you today?",
+                "Hi! I'm HotelBot. How may I help you with your hotel stay?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "See you later",
+                "Bye",
+                "Farewell",
+                "Catch you later",
+                "Talk to you soon",
+                "Take care",
+                "Bye for now"
+            ],
+            "responses": [
+                "Goodbye! Have a wonderful stay, and we hope to see you again soon!",
+                "See you later! Don't hesitate to contact us if you need anything during your stay."
+            ]
+        },
+        {
+            "tag": "room_types",
+            "patterns": [
+                "What types of rooms do you have?",
+                "What rooms are available?",
+                "What are your room options?",
+                "Tell me about your rooms"
+            ],
+            "responses": [
+                "We offer various room types including Standard, Deluxe, Suite, and Executive rooms. Would you like details about a specific room type?",
+                "Our hotel features Standard rooms, Deluxe rooms with ocean views, and luxurious Suites. Which type interests you?"
+            ]
+        },
+        {
+            "tag": "hotel_hours",
+            "patterns": [
+                "What are your front desk hours?",
+                "When is reception open?",
+                "What time does the front desk close?",
+                "When is check-in available?"
+            ],
+            "responses": [
+                "Our front desk is open 24/7 to serve you. Check-in is available anytime after 3 PM.",
+                "We have 24-hour reception service. You can check in anytime after 3 PM and check out by 11 AM."
+            ]
+        },
+        {
+            "tag": "specials",
+            "patterns": [
+                "Do you have any special offers?",
+                "What are the current promotions?",
+                "Are there any discounts available?",
+                "Tell me about your special deals"
+            ],
+            "responses": [
+                "We currently have a 20% discount for extended stays of 5 nights or more!",
+                "We're offering a complimentary breakfast package with all suite bookings this month."
+            ]
+        },
+        {
+            "tag": "reservations",
+            "patterns": [
+                "Can I make a reservation?",
+                "I want to book a room",
+                "Do I need to book in advance?",
+                "How can I book a room?"
+            ],
+            "responses": [
+                "Yes! You can book a room through our website or by contacting our reservations team. Would you like me to assist you with booking?",
+                "I can help you with that! Please let me know your check-in/check-out dates and room preference."
+            ]
+        },
+        {
+            "tag": "room_service",
+            "patterns": [
+                "Do you offer room service?",
+                "What are your room service hours?",
+                "Can I order food to my room?",
+                "Is room service available?"
+            ],
+            "responses": [
+                "Yes, we offer 24-hour room service with a full menu available.",
+                "Room service is available around the clock. A menu is provided in your room."
+            ]
+        },
+        {
+            "tag": "amenities",
+            "patterns": [
+                "What amenities do you offer?",
+                "What facilities does the hotel have?",
+                "Do you have a pool?",
+                "What services are available?"
+            ],
+            "responses": [
+                "Our hotel features a swimming pool, fitness center, spa, business center, and complimentary WiFi throughout the property.",
+                "Guests enjoy access to our pool, gym, spa services, and 24-hour business facilities. We also offer concierge services."
+            ]
+        },
+        {
+            "tag": "hotel_location",
+            "patterns": [
+                "Where are you located?",
+                "What's your address?",
+                "How do I get to your hotel?",
+                "Where is the hotel situated?"
+            ],
+            "responses": [
+                "We are located at 123 Hospitality Avenue, Downtown City. Would you like directions?",
+                "You can find us at 123 Hospitality Avenue, Downtown City. Let me know if you need transportation assistance!"
+            ]
+        },
+        {
+            "tag": "contact_info",
+            "patterns": [
+                "How can I contact the hotel?",
+                "What's your phone number?",
+                "Do you have an email?",
+                "How can I reach the front desk?"
+            ],
+            "responses": [
+                "You can reach us at [Click here](https://wa.me/2349077332016) or email us at info@hotel.com.",
+                "Feel free to call us at [Click here](https://wa.me/2349077332016) for any inquiries!"
+            ]
+        },
+        {
+            "tag": "feedback",
+            "patterns": [
+                "I want to leave feedback",
+                "How do I give feedback?",
+                "I want to review my stay",
+                "How can I share my experience?"
+            ],
+            "responses": [
+                "We'd love to hear your feedback! You can share it with us directly at the front desk or leave a review on our website.",
+                "We value your opinion! Please feel free to share your experience with us through our guest survey."
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Thanks a lot",
+                "I appreciate it"
+            ],
+            "responses": [
+                "You're very welcome! We're happy to serve you.",
+                "It's our pleasure! Let us know if you need anything else."
+            ]
+        },
+        {
+            "tag": "check_in_time",
+            "patterns": [
+                "What time is check-in?",
+                "When can I check in?",
+                "What's your check-in policy?",
+                "Can I check in early?"
+            ],
+            "responses": [
+                "Standard check-in time is 3 PM. Early check-in may be available depending on room availability for a small fee.",
+                "Check-in begins at 3 PM. We're happy to store your luggage if you arrive earlier."
+            ]
+        },
+        {
+            "tag": "check_out_time",
+            "patterns": [
+                "What time is check-out?",
+                "When do I need to check out?",
+                "Can I have a late check-out?",
+                "What's your check-out policy?"
+            ],
+            "responses": [
+                "Check-out time is 11 AM. Late check-out may be available upon request and subject to availability.",
+                "Standard check-out is at 11 AM. For late check-out options, please inquire at the front desk."
+            ]
+        },
+        {
+            "tag": "parking",
+            "patterns": [
+                "Do you have parking?",
+                "Is parking available?",
+                "What are your parking options?",
+                "Is parking free?"
+            ],
+            "responses": [
+                "We offer both valet parking and self-parking options. Valet is 3000/night while self-parking is 2000/night.",
+                "Yes, we have parking available. We offer complimentary parking for hotel guests."
+            ]
+        },
+        {
+            "tag": "breakfast",
+            "patterns": [
+                "Do you serve breakfast?",
+                "Is breakfast included?",
+                "What are your breakfast options?",
+                "What time is breakfast served?"
+            ],
+            "responses": [
+                "We offer a complimentary breakfast buffet daily from 6:30 AM to 10:30 AM in our dining room.",
+                "Breakfast is served from 6:30 AM to 10:30 AM. We have both continental and hot breakfast options available."
+            ]
+        },
+        {
+            "tag": "pet_policy",
+            "patterns": [
+                "Are pets allowed?",
+                "Do you accept dogs?",
+                "What's your pet policy?",
+                "Can I bring my pet?"
+            ],
+            "responses": [
+                "We are pet-friendly! Pets up to 50 lbs are welcome for a $50 cleaning fee per stay.",
+                "Yes, we welcome pets with some restrictions. There's a small additional fee and we ask that pets not be left unattended."
+            ]
+        },
+        {
+            "tag": "wifi",
+            "patterns": [
+                "Do you have free WiFi?",
+                "Is WiFi available?",
+                "What's the WiFi password?",
+                "Is internet included?"
+            ],
+            "responses": [
+                "Yes, we offer complimentary high-speed WiFi throughout the hotel. The network is 'HotelGuest' and the password is 'Welcome123'.",
+                "Free WiFi is available for all guests. You'll find login instructions in your room."
+            ]
+        },
+        {
+            "tag": "gym",
+            "patterns": [
+                "Do you have a gym?",
+                "What are your fitness facilities?",
+                "Is there a workout room?",
+                "What are the gym hours?"
+            ],
+            "responses": [
+                "Our 24-hour fitness center is equipped with cardio machines, free weights, and yoga mats.",
+                "The fitness center is open 24 hours and features modern equipment for your workout needs."
+            ]
+        },
+        {
+            "tag": "pool",
+            "patterns": [
+                "Do you have a swimming pool?",
+                "What are your pool hours?",
+                "Is the pool heated?",
+                "Can children use the pool?"
+            ],
+            "responses": [
+                "We have an indoor heated pool open from 6 AM to 10 PM daily. Children are welcome with adult supervision.",
+                "Our outdoor pool is open seasonally from 8 AM to 8 PM and is heated for comfortable swimming."
+            ]
+        },
+        {
+            "tag": "spa",
+            "patterns": [
+                "Do you have a spa?",
+                "What spa services do you offer?",
+                "Can I book a massage?",
+                "What are your spa hours?"
+            ],
+            "responses": [
+                "Our full-service spa offers massages, facials, and body treatments. It's open daily from 9 AM to 8 PM.",
+                "Yes, we have an on-site spa. Services include massages, facials, and manicures/pedicures. Appointments are recommended."
+            ]
+        },
+        {
+            "tag": "business_center",
+            "patterns": [
+                "Do you have a business center?",
+                "What business services are available?",
+                "Can I print documents?",
+                "Is there a meeting room?"
+            ],
+            "responses": [
+                "Our business center is open 24/7 and offers computers, printers, and copying services. Meeting rooms are available for rent.",
+                "Yes, we have a fully equipped business center with printing, scanning, and fax services available to guests."
+            ]
+        },
+        {
+            "tag": "laundry",
+            "patterns": [
+                "Do you have laundry service?",
+                "Is there a laundromat?",
+                "Can I get my clothes cleaned?",
+                "What are your laundry options?"
+            ],
+            "responses": [
+                "We offer both self-service laundry facilities and full laundry/dry cleaning services with next-day return.",
+                "Yes, we have coin-operated laundry machines on each floor and also offer valet laundry service."
+            ]
+        },
+        {
+            "tag": "accessibility",
+            "patterns": [
+                "Is your hotel wheelchair accessible?",
+                "Do you have ADA rooms?",
+                "What accessibility features do you have?",
+                "Are there rooms for disabled guests?"
+            ],
+            "responses": [
+                "Yes, our hotel is fully ADA compliant with wheelchair accessible rooms, elevators, and public areas.",
+                "We have several accessible rooms with roll-in showers and other ADA features. Please request when booking."
+            ]
+        },
+        {
+            "tag": "smoking_policy",
+            "patterns": [
+                "Do you have smoking rooms?",
+                "Is smoking allowed?",
+                "What's your smoking policy?",
+                "Can I smoke in my room?"
+            ],
+            "responses": [
+                "Our hotel is 100% non-smoking. A $250 cleaning fee will be charged for smoking in rooms.",
+                "For the comfort of all guests, smoking is not permitted anywhere in the hotel. Designated smoking areas are available outside."
+            ]
+        },
+        {
+            "tag": "cancellation_policy",
+            "patterns": [
+                "What's your cancellation policy?",
+                "Can I cancel my reservation?",
+                "Is there a penalty for cancelling?",
+                "How do I cancel my booking?"
+            ],
+            "responses": [
+                "Cancellations made 48 hours or more before arrival incur no penalty. Later cancellations are charged one night's stay.",
+                "You can cancel your reservation without penalty up to 2 days before your scheduled arrival."
+            ]
+        },
+        {
+            "tag": "payment_options",
+            "patterns": [
+                "What payment methods do you accept?",
+                "Can I pay with credit card?",
+                "Do you take cash?",
+                "What cards do you accept?"
+            ],
+            "responses": [
+                "We accept all major credit cards (Visa, Mastercard, Amex, Discover), cash, and traveler's checks.",
+                "Payment can be made with credit/debit cards, cash, or mobile payments like Apple Pay and Google Pay."
+            ]
+        },
+        {
+            "tag": "nearby_attractions",
+            "patterns": [
+                "What's nearby to do?",
+                "What attractions are close by?",
+                "What can I do in the area?",
+                "Are there restaurants nearby?"
+            ],
+            "responses": [
+                "We're located near several museums, shopping districts, and excellent restaurants. Our concierge can provide recommendations!",
+                "Popular nearby attractions include City Park (5 min walk), the Art Museum (10 min drive), and many great dining options."
+            ]
+        },
+        {
+            "tag": "transportation",
+            "patterns": [
+                "Do you offer airport shuttle?",
+                "How can I get to the airport?",
+                "What transportation options are there?",
+                "Can you arrange a taxi?"
+            ],
+            "responses": [
+                "We offer complimentary airport shuttle service running every 30 minutes. The front desk can also arrange taxis or car rentals.",
+                "Our concierge can help arrange transportation including airport shuttles, taxis, and rental cars."
+            ]
+        },
+        {
+            "tag": "group_bookings",
+            "patterns": [
+                "Do you accommodate groups?",
+                "Can I book multiple rooms?",
+                "Do you offer group rates?",
+                "What's your policy for large groups?"
+            ],
+            "responses": [
+                "Yes, we offer special rates for group bookings of 10 rooms or more. Please contact our group sales department.",
+                "We welcome group bookings and can offer discounted rates for blocks of rooms. Let me connect you with our group coordinator."
+            ]
+        },
+        {
+            "tag": "long_term_stays",
+            "patterns": [
+                "Do you offer extended stay rates?",
+                "What are your monthly rates?",
+                "Do you have specials for long stays?",
+                "Can I stay for several weeks?"
+            ],
+            "responses": [
+                "We offer discounted rates for stays of 7 nights or longer. Please inquire about our extended stay packages.",
+                "Yes, we have special rates and amenities for extended stays. Our front desk can provide details."
+            ]
+        },
+        {
+            "tag": "room_service_menu",
+            "patterns": [
+                "Can I see the room service menu?",
+                "What's available for room service?",
+                "What food can I order to my room?",
+                "Do you have a room service menu?"
+            ],
+            "responses": [
+                "The room service menu is available in your room and includes breakfast, lunch, and dinner options available 24/7.",
+                "Our room service offers a variety of dishes from our restaurant menu. A menu is provided in each guest room."
+            ]
+        },
+        {
+            "tag": "late_night_food",
+            "patterns": [
+                "Is there food available late at night?",
+                "Can I get food after midnight?",
+                "What are your late night dining options?",
+                "Is the restaurant open late?"
+            ],
+            "responses": [
+                "Our restaurant closes at 11 PM, but room service is available 24 hours with a limited late-night menu.",
+                "For late-night dining, we offer a limited room service menu available all night, or there are several 24-hour delivery options nearby."
+            ]
+        },
+        {
+            "tag": "luggage_storage",
+            "patterns": [
+                "Can I store my luggage?",
+                "Do you have baggage storage?",
+                "Can I leave my bags after check-out?",
+                "Is there somewhere to keep my luggage?"
+            ],
+            "responses": [
+                "Yes, we offer complimentary luggage storage before check-in and after check-out at the bell desk.",
+                "We're happy to store your luggage for you before your room is ready or after you've checked out."
+            ]
+        },
+        {
+            "tag": "early_arrival",
+            "patterns": [
+                "Can I arrive early?",
+                "What if I get there before check-in?",
+                "Is early check-in possible?",
+                "Can I get into my room early?"
+            ],
+            "responses": [
+                "While we can't guarantee early check-in, we'll do our best to accommodate you. We're happy to store your luggage until your room is ready.",
+                "Early check-in is subject to availability. Please call ahead on your arrival day to check if your room will be ready early."
+            ]
+        },
+        {
+            "tag": "room_upgrades",
+            "patterns": [
+                "Can I upgrade my room?",
+                "How can I get a better room?",
+                "What are my upgrade options?",
+                "Do you offer room upgrades?"
+            ],
+            "responses": [
+                "Room upgrades are available based on availability and for an additional fee. Please inquire at the front desk about current upgrade options.",
+                "We'd be happy to discuss upgrade possibilities! Available upgrades may include larger rooms, better views, or suite accommodations."
+            ]
+        },
+        {
+            "tag": "minibar",
+            "patterns": [
+                "Is there a minibar in the room?",
+                "What's in the minibar?",
+                "Are minibar items complimentary?",
+                "Can I request minibar items?"
+            ],
+            "responses": [
+                "All our rooms feature a minibar with snacks and beverages. These items are available for purchase and will be charged to your room.",
+                "The minibar is stocked with drinks and snacks which are available for purchase. If you need it restocked during your stay, please contact housekeeping."
+            ]
+        },
+        {
+            "tag": "housekeeping",
+            "patterns": [
+                "How often is housekeeping service?",
+                "Can I get extra towels?",
+                "How do I request room cleaning?",
+                "What are your housekeeping hours?"
+            ],
+            "responses": [
+                "Daily housekeeping service is provided between 9 AM and 5 PM. For extra towels or special requests, please contact the front desk.",
+                "We offer daily turndown service. If you'd like additional housekeeping service or need anything, just dial '0' from your room phone."
+            ]
+        },
+        {
+            "tag": "temperature_control",
+            "patterns": [
+                "Can I control the room temperature?",
+                "How does the thermostat work?",
+                "My room is too cold/hot",
+                "Can I adjust the AC?"
+            ],
+            "responses": [
+                "Each room has an individual climate control system. If you're having trouble adjusting it, our maintenance team can assist you.",
+                "You can adjust your room's temperature using the thermostat on the wall. If you need help, please call the front desk."
+            ]
+        },
+        {
+            "tag": "safe_deposit",
+            "patterns": [
+                "Is there a safe in the room?",
+                "How do I use the room safe?",
+                "Can I store valuables at the front desk?",
+                "Do you have safety deposit boxes?"
+            ],
+            "responses": [
+                "Each room is equipped with an electronic safe for your valuables. Instructions for use are provided in your room.",
+                "We have in-room safes and also offer safety deposit boxes at the front desk for additional security."
+            ]
+        },
+        {
+            "tag": "local_dining",
+            "patterns": [
+                "Can you recommend restaurants nearby?",
+                "Where should I eat around here?",
+                "What are good local restaurants?",
+                "Best places to eat near the hotel?"
+            ],
+            "responses": [
+                "Our concierge would be happy to recommend restaurants based on your preferences. We have excellent options within walking distance!",
+                "There are many great dining options nearby ranging from casual to fine dining. Check out our neighborhood guide at the front desk."
+            ]
+        },
+        {
+            "tag": "concierge",
+            "patterns": [
+                "What services does the concierge offer?",
+                "Can the concierge help with tickets?",
+                "What can the concierge arrange?",
+                "How do I contact the concierge?"
+            ],
+            "responses": [
+                "Our concierge can assist with restaurant reservations, event tickets, transportation, tours, and local recommendations. They're available at the front desk.",
+                "The concierge service can help plan your activities, make reservations, and provide local insights. Just visit them in the lobby!"
+            ]
+        },
+        {
+            "tag": "late_checkout",
+            "patterns": [
+                "Can I get a late checkout?",
+                "How late can I check out?",
+                "Is late checkout available?",
+                "Can I extend my checkout time?"
+            ],
+            "responses": [
+                "Late checkout is available upon request and subject to availability. There may be an additional fee for late checkouts after 1 PM.",
+                "We can often accommodate late checkout requests. Please check with the front desk the day before your departure about availability."
+            ]
+        },
+        {
+            "tag": "billing_questions",
+            "patterns": [
+                "How can I see my bill?",
+                "Can I get a copy of my invoice?",
+                "Where can I check my charges?",
+                "How do I review my hotel bill?"
+            ],
+            "responses": [
+                "You can view your current charges on the in-room TV system or request a printout at the front desk at any time.",
+                "Your folio is available at the front desk 24/7. You can also access it through our guest portal on your mobile device."
+            ]
+        },
+        {
+            "tag": "damage_policy",
+            "patterns": [
+                "What if I damage something in the room?",
+                "What's your policy on broken items?",
+                "Will I be charged for room damage?",
+                "What happens if I spill something?"
+            ],
+            "responses": [
+                "Accidents happen! Please report any damage immediately so we can assess the situation. Minor accidents typically don't incur charges.",
+                "We understand accidents occur. Please notify us right away about any damage so we can address it appropriately."
+            ]
+        },
+        {
+            "tag": "emergency",
+            "patterns": [
+                "What do I do in an emergency?",
+                "How do I contact security?",
+                "Where are emergency exits?",
+                "What's the emergency procedure?"
+            ],
+            "responses": [
+                "In case of emergency, dial '0' from your room phone or use the emergency call buttons located throughout the hotel.",
+                "Emergency exits are clearly marked on the back of your room door and throughout hallways. For emergencies, dial '0' immediately."
+            ]
+        },
+        {
+            "tag": "lost_and_found",
+            "patterns": [
+                "I left something in my room",
+                "How do I check for lost items?",
+                "Did housekeeping find my item?",
+                "Where is lost and found?"
+            ],
+            "responses": [
+                "Our lost and found department keeps items for 30 days. Please contact the front desk with a description of your lost item.",
+                "If you've left something behind, call our lost and found department at extension 55. We'll do our best to locate your item."
+            ]
+        },
+        {
+            "tag": "special_requests",
+            "patterns": [
+                "Can I make a special request?",
+                "Do you accommodate special needs?",
+                "I have a special requirement",
+                "Can you arrange something special?"
+            ],
+            "responses": [
+                "We're happy to accommodate special requests when possible. Please let us know your needs when booking or contact the front desk.",
+                "Our staff will do their best to fulfill special requests. Please provide details to our reservations team or front desk."
+            ]
+        },
+        {
+            "tag": "romantic_packages",
+            "patterns": [
+                "Do you offer romantic packages?",
+                "Can you arrange something romantic?",
+                "What's available for anniversaries?",
+                "Do you have honeymoon suites?"
+            ],
+            "responses": [
+                "We offer several romantic packages including champagne, flowers, and special turndown service. Contact our concierge for details!",
+                "Our romance packages feature special amenities to make your stay memorable. Ask about our honeymoon and anniversary specials."
+            ]
+        },
+        {
+            "tag": "business_services",
+            "patterns": [
+                "What business amenities do you offer?",
+                "Do you have meeting rooms?",
+                "Can I host a business meeting?",
+                "What's available for business travelers?"
+            ],
+            "responses": [
+                "We offer full business services including meeting rooms, video conferencing, printing, and secretarial services upon request.",
+                "Business travelers enjoy our workstations, high-speed internet, and meeting facilities. Ask about our corporate rates."
+            ]
+        },
+        {
+            "tag": "event_hosting",
+            "patterns": [
+                "Can I host an event at your hotel?",
+                "Do you have banquet facilities?",
+                "Can you accommodate weddings?",
+                "What size events can you host?"
+            ],
+            "responses": [
+                "We have beautiful event spaces for groups from 10 to 300 people. Our events team would love to discuss your needs!",
+                "Yes! We specialize in weddings, corporate events, and social gatherings. Contact our events department for packages."
+            ]
+        },
+        {
+            "tag": "gift_shop",
+            "patterns": [
+                "Do you have a gift shop?",
+                "Where can I buy souvenirs?",
+                "Is there a shop in the hotel?",
+                "Can I purchase toiletries?"
+            ],
+            "responses": [
+                "Our gift shop is located in the lobby and offers souvenirs, snacks, toiletries, and local products. Open daily 7 AM-10 PM.",
+                "The hotel gift shop carries essentials you may have forgotten as well as unique local gifts. It's next to the front desk."
+            ]
+        },
+        {
+            "tag": "local_transportation",
+            "patterns": [
+                "How do I get around town?",
+                "What's the best way to explore the city?",
+                "Do you offer transportation to attractions?",
+                "Can you call me a taxi?"
+            ],
+            "responses": [
+                "Our concierge can arrange taxis, rental cars, or provide information about public transportation. We also offer a complimentary downtown shuttle.",
+                "For local transportation, we recommend rideshares, taxis, or our free area shuttle. The concierge can help arrange whatever you need."
+            ]
+        },
+        {
+            "tag": "complaints",
+            "patterns": [
+                "I have a complaint",
+                "I'm not happy with my room",
+                "This isn't what I expected",
+                "I need to speak to a manager"
+            ],
+            "responses": [
+                "We're sorry to hear you're not completely satisfied. Please let us know how we can improve your stay - the front desk manager is available to assist.",
+                "Your satisfaction is important to us. Please share your concerns with our guest services team so we can address them immediately."
+            ]
+        },
+        {
+            "tag": "positive_feedback",
+            "patterns": [
+                "I'm loving my stay!",
+                "The service is wonderful",
+                "This hotel is amazing",
+                "Everything is perfect"
+            ],
+            "responses": [
+                "Thank you for your kind words! We're delighted you're enjoying your stay. Please let us know if there's anything we can do to make it even better.",
+                "We're so happy to hear you're having a great experience! Your feedback means the world to our team."
+            ]
+        },
+        {
+            "tag": "loyalty_program",
+            "patterns": [
+                "Do you have a loyalty program?",
+                "How do I join your rewards?",
+                "What are the benefits of membership?",
+                "Can I earn points for my stay?"
+            ],
+            "responses": [
+                "Yes! Our loyalty program offers room upgrades, late checkouts, and points redeemable for free nights. Sign up at the front desk or online.",
+                "Join our loyalty program to enjoy exclusive benefits including member-only rates, complimentary amenities, and points toward free stays."
+            ]
+        },
+        {
+            "tag": "corporate_rates",
+            "patterns": [
+                "Do you offer corporate discounts?",
+                "What are your business rates?",
+                "Can I get a company discount?",
+                "Do you have negotiated rates?"
+            ],
+            "responses": [
+                "We offer special corporate rates for business travelers. Please inquire at the front desk about our business programs.",
+                "Many companies have negotiated rates with us. Have your corporate ID ready when booking or checking in."
+            ]
+        },
+        {
+            "tag": "military_discount",
+            "patterns": [
+                "Do you offer military discounts?",
+                "Is there a discount for veterans?",
+                "What's your military rate?",
+                "Do you honor armed forces discounts?"
+            ],
+            "responses": [
+                "We're proud to offer special rates for active military and veterans with valid ID. Please present your ID at check-in.",
+                "Yes, we provide a 10% discount for active duty military and veterans. Thank you for your service!"
+            ]
+        },
+        {
+            "tag": "senior_discount",
+            "patterns": [
+                "Do you have senior discounts?",
+                "Is there a rate for seniors?",
+                "What's your senior citizen discount?",
+                "Do you offer AARP rates?"
+            ],
+            "responses": [
+                "We offer a 10% discount for guests 65+. Please mention this when booking or present ID at check-in.",
+                "Yes, seniors enjoy special rates. Ask about our senior discount when making your reservation."
+            ]
+        },
+        {
+            "tag": "government_rates",
+            "patterns": [
+                "Do you have government rates?",
+                "What's the per diem rate?",
+                "Do you accept government travel cards?",
+                "Is there a discount for federal employees?"
+            ],
+            "responses": [
+                "We offer government rates for official travel. Please present your government ID and travel orders at check-in.",
+                "Yes, we honor government per diem rates when rooms are available for official travel."
+            ]
+        },
+        {
+            "tag": "weekly_rates",
+            "patterns": [
+                "Do you have weekly rates?",
+                "Is it cheaper to stay by the week?",
+                "What's your extended stay discount?",
+                "Do you offer monthly rates?"
+            ],
+            "responses": [
+                "We offer discounted weekly and monthly rates for extended stays. Please contact our reservations team for details.",
+                "Yes! Stays of 7+ nights qualify for our extended stay discount. The longer you stay, the more you save."
+            ]
+        },
+        {
+            "tag": "last_minute_deals",
+            "patterns": [
+                "Do you have last minute specials?",
+                "Any deals for tonight?",
+                "What's your walk-in rate?",
+                "Can I get a discount for booking last minute?"
+            ],
+            "responses": [
+                "We sometimes offer last-minute discounts when we have availability. Call the front desk to check current promotions.",
+                "Ask about our 'Tonight Only' specials when calling or checking in - we often have great last-minute deals!"
+            ]
+        },
+        {
+            "tag": "package_deals",
+            "patterns": [
+                "Do you offer vacation packages?",
+                "What packages do you have?",
+                "Are there stay-and-dine deals?",
+                "Do you have spa packages?"
+            ],
+            "responses": [
+                "We have several packages combining accommodations with dining credits, spa services, or local attractions. Check our website for current offers.",
+                "Our packages make your stay extra special! Options include romance, family, and adventure packages with added amenities."
+            ]
+        },
+        {
+            "tag": "room_service_charges",
+            "patterns": [
+                "Is there a room service fee?",
+                "How much does room service cost?",
+                "Is there a delivery charge for room service?",
+                "What's the service charge for in-room dining?"
+            ],
+            "responses": [
+                "Room service orders include a 18% service charge and $5 delivery fee. Gratuity is at your discretion beyond this.",
+                "There's a small delivery fee and service charge for room service. The exact amount will be noted on your menu."
+            ]
+        },
+        {
+            "tag": "resort_fees",
+            "patterns": [
+                "Are there resort fees?",
+                "What's included in the resort fee?",
+                "Can I opt out of the resort fee?",
+                "How much is the daily resort charge?"
+            ],
+            "responses": [
+                "Our $25 daily resort fee includes WiFi, pool access, fitness center, and local calls. This is automatically added to all reservations.",
+                "The resort fee covers many amenities you'll enjoy during your stay. Unfortunately it's mandatory for all guests."
+            ]
+        },
+        {
+            "tag": "incidentals",
+            "patterns": [
+                "Why was my card charged at check-in?",
+                "What's the incidental hold?",
+                "How much do you hold for incidentals?",
+                "When will I get my deposit back?"
+            ],
+            "responses": [
+                "We place a $50/night hold on your card for incidentals. This temporary hold will be released after check-out if no charges are made.",
+                "The incidental hold covers potential room charges and is typically released within 3-5 business days after checkout."
+            ]
+        },
+        {
+            "tag": "early_departure",
+            "patterns": [
+                "What if I need to leave early?",
+                "Is there a penalty for checking out early?",
+                "Can I change my checkout date?",
+                "What's your early departure policy?"
+            ],
+            "responses": [
+                "Early departures may be subject to a fee depending on your rate plan. Please notify the front desk as soon as possible.",
+                "We understand plans change. Please let us know at least 24 hours in advance to avoid early departure fees."
+            ]
+        },
+        {
+            "tag": "no_show",
+            "patterns": [
+                "What happens if I don't show up?",
+                "What's your no-show policy?",
+                "Will I be charged if I don't arrive?",
+                "Can I cancel last minute?"
+            ],
+            "responses": [
+                "No-shows are typically charged one night's room and tax. Please cancel by 4 PM the day before arrival to avoid this charge.",
+                "Our cancellation policy requires notice by 4 PM the day prior to avoid a no-show charge equal to one night's stay."
+            ]
+        },
+        {
+            "tag": "wheelchair_rental",
+            "patterns": [
+                "Do you rent wheelchairs?",
+                "Can I borrow a wheelchair?",
+                "Is wheelchair rental available?",
+                "Do you have wheelchairs for guest use?"
+            ],
+            "responses": [
+                "We have a limited number of wheelchairs available for guest use at no charge. Please contact the front desk to reserve one.",
+                "Complimentary wheelchairs are available on a first-come, first-served basis. Ask at reception for availability."
+            ]
+        },
+        {
+            "tag": "babysitting",
+            "patterns": [
+                "Do you offer babysitting services?",
+                "Can I find a babysitter through the hotel?",
+                "Is childcare available?",
+                "Do you have kids' activities?"
+            ],
+            "responses": [
+                "We can arrange licensed babysitting services with 24 hours notice. Rates start at $25/hour. Contact the concierge to arrange.",
+                "While we don't have on-site childcare, our concierge can recommend trusted local babysitting services."
+            ]
+        },
+        {
+            "tag": "pet_services",
+            "patterns": [
+                "Do you offer pet sitting?",
+                "Can you recommend a dog walker?",
+                "Are there pet services available?",
+                "Where can I take my dog nearby?"
+            ],
+            "responses": [
+                "We partner with a local pet care service that offers walking, sitting, and grooming. The concierge can provide contact information.",
+                "Pet relief areas are located behind the hotel, and we have a list of nearby dog parks and pet services at the front desk."
+            ]
+        },
+        {
+            "tag": "medical_services",
+            "patterns": [
+                "Is there a doctor on call?",
+                "Where is the nearest pharmacy?",
+                "Can you help with medical emergencies?",
+                "Do you have first aid supplies?"
+            ],
+            "responses": [
+                "We have a doctor on call 24/7 and can arrange medical assistance if needed. For emergencies, dial '0' immediately.",
+                "First aid kits are available at the front desk. The nearest 24-hour pharmacy is two blocks away on Main Street."
+            ]
+        },
+        {
+            "tag": "dry_cleaning",
+            "patterns": [
+                "How fast is dry cleaning?",
+                "Do you offer same-day laundry?",
+                "What are your laundry service hours?",
+                "Can I get clothes pressed quickly?"
+            ],
+            "responses": [
+                "We offer same-day dry cleaning for items received before 9 AM. Express pressing service is available within 2 hours.",
+                "Laundry received by 10 AM will be returned by 5 PM the same day. We also have self-service laundry machines on the 3rd floor."
+            ]
+        },
+        {
+            "tag": "newspapers",
+            "patterns": [
+                "Do you provide newspapers?",
+                "Can I get a morning paper?",
+                "What newspapers are available?",
+                "Is there a newsstand nearby?"
+            ],
+            "responses": [
+                "Complimentary newspapers are available in the lobby each morning. We offer the Times, Journal, and local paper.",
+                "You can request a specific newspaper delivered to your room each morning. Just let the front desk know your preference."
+            ]
+        },
+        {
+            "tag": "religious_services",
+            "patterns": [
+                "Where is the nearest church/synagogue/mosque?",
+                "Can you help me find religious services?",
+                "Are there worship spaces nearby?",
+                "What time are local services held?"
+            ],
+            "responses": [
+                "Our concierge has information on all local places of worship and their service times. We're happy to provide directions.",
+                "We have a directory of nearby religious institutions at the front desk. Many are within walking distance."
+            ]
+        },
+        {
+            "tag": "language_services",
+            "patterns": [
+                "Do you have staff who speak [language]?",
+                "Can I get a translator?",
+                "Is there language assistance available?",
+                "Do you offer translation services?"
+            ],
+            "responses": [
+                "We have multilingual staff available during peak hours. For translation needs, we can arrange professional services with advance notice.",
+                "Several of our team members speak multiple languages. Let us know your language needs and we'll do our best to assist."
+            ]
+        },
+        {
+            "tag": "electrical_outlets",
+            "patterns": [
+                "What type of outlets are in the rooms?",
+                "Do I need a power adapter?",
+                "Are there USB charging ports?",
+                "How many outlets are in the room?"
+            ],
+            "responses": [
+                "Our rooms feature both standard 110V outlets and USB charging ports at each bedside and work desk.",
+                "You'll find multiple outlets throughout the room, including international adapters available for loan at the front desk."
+            ]
+        },
+        {
+            "tag": "complimentary_items",
+            "patterns": [
+                "What items are complimentary?",
+                "Do you provide free toiletries?",
+                "What amenities are included?",
+                "Are there any freebies?"
+            ],
+            "responses": [
+                "We provide complimentary toiletries, bottled water, coffee/tea, WiFi, and access to all hotel facilities.",
+                "Enjoy our free amenities including premium toiletries, morning newspaper, gym access, and 24-hour coffee service in the lobby."
+            ]
+        },
+        {
+            "tag": "greetings ",
+            "patterns": [
+                "hi"
+            ],
+            "responses": [
+                "hello , how can i be off assistance"
+            ]
+        },
+        {
+            "tag": "greetingss",
+            "patterns": [
+                "hey"
+            ],
+            "responses": [
+                "hello"
+            ]
+        },
+        {
+            "tag": "bullets",
+            "patterns": [
+                "do you sell guns"
+            ],
+            "responses": [
+                "we dont sell guns"
+            ]
+        },
+        {
+            "tag": "owner",
+            "patterns": [
+                "who is the manager"
+            ],
+            "responses": [
+                "Johnking and am his creation"
+            ]
+        }
+        
+        
+    ]
+}
